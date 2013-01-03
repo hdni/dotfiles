@@ -1,0 +1,115 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #fff;
+	color: #333;
+	font-family: Muli;
+	background-image: url(assets/background.png);
+}
+
+#header {
+	height: 8%;
+	width: 100%;
+	background: rgba(0,0,0,0.35);
+	background-image: url(assets/header_noise.png);
+	box-shadow: inset 0px -10px 20px -15px rgba(0,0,0,0.6);
+}
+
+.search {
+	width: 315px;
+	margin: 0 auto;
+	margin-top: 0;
+}
+
+.search input[type="text"] {
+	font-family: Muli;
+	width: 250px;
+	height: 22px;
+	margin-top: 7%;
+	
+	-moz-appearance: none;
+	background: rgba(0,0,0,0.2);
+	border: 1px solid rgba(0,0,0,0.1);
+	box-shadow: inset 0px 0px 1px rgba(0,0,0,0.2);
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	color: #fff;
+}
+
+.search input[type="text"]:hover, .search input[type="text"]:active {
+	box-shadow: inset 0px 0px 2px rgba(0,0,0,0.3);
+}
+
+.search input[type="submit"] {
+	font-family: Muli;
+	font-size: 10pt;
+	min-height: 26px;
+	margin-left: -5px;
+
+	-moz-appearance: none;
+	background: rgba(0,0,0,0.1);
+	border: 1px solid rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 2px rgba(0,0,0,0.2);
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.search input[type="submit"]:hover {
+	box-shadow: 0px 0px 2px rgba(0,0,0,0.3);
+	background: rgba(0,0,0,0.2);
+	cursor: pointer;
+}
+
+#links {
+	width: 100%;
+	height: 92%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#links a {
+	display: block;
+	width: 100%;
+	height: auto;
+	padding-top: 13%;
+	padding-bottom: 13%;
+	text-decoration: none;
+	font-size: 60pt;
+	color: #b3937d;
+	text-shadow: inset 1px -1px 5px rgba(0,0,0,0.5);
+}
+
+#links a:hover {
+	color: #a68e7c;
+}
+
+table {
+	position: relative;
+	top: 14%;
+	bottom: 14%;
+	left: 14%;
+	width: 70%;
+	height: 70%;
+	border-spacing: 25px;
+}
+
+td {
+	width: 250px;
+	border-radius: 6px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+	background: #fff;
+	border: 1px solid rgba(0,0,0,0.1);
+	margin: 10px;
+}
+
+td:hover {
+	border: 1px solid rgba(0,0,0,0.25);
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	background: rgba(255,255,255,0.8);
+}
