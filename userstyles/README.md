@@ -1,7 +1,6 @@
 Screenshot
 ==========
-
-.. image:: https://raw.github.com/hdni/dotfiles/master/userstyles/screenshot.png
+![Screenshot](https://raw.github.com/hdni/dotfiles/master/userstyles/screenshot.png)
 
 Installation (assuming Firefox)
 ===============================
