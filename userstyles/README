@@ -1,4 +1,6 @@
-To use these (assuming Firefox):
+Installation (assuming Firefox)
+-------------------------------
+
 Recommended method: Install the Stylish extension to manage your userstyles: once installed, just click on "Write New Style", give it a name, and paste the CSS there.
 Go to your Firefox profile directory and make a directory called "chrome". In there, create two files: "userChrome.css" and "userContent.css". In the former, you can put CSS to theme Firefox's user interface; the latter affects websites. If you choose this method, you will experience issues with checkboxes and buttons not being affected by some properties (in other words, the QR and its icon won't look right.
 
