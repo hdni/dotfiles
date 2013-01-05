@@ -14,4 +14,5 @@ If you don't use Firefox, you'll have to adapt the 4chan stylesheet so it does n
 Additional setup
 ----------------
 
-For Firefox, I also use the FXChrome theme, and the Movable Firefox Button and Favicon Restorer extensions.
+* For Firefox, I also use the FXChrome theme, and the Movable Firefox Button and Favicon Restorer extensions.
+* For 4chan, I use 4chan X. The stylesheet will *not* look right in many places if you don't use 4chan X.

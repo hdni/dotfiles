@@ -172,11 +172,6 @@
     .deadlink {
         color: #aaa !important;
     }
-    
-    .deadlink:after {
-        content: " (Dead)" !important;
-        font-style: italic !important;
-    }
 
     /*Things to hide*/
     hr,
@@ -550,19 +545,13 @@
     }
     
     /*Disable thread hiding. To do: fix the stubs and position the button correctly!*/
-    .hide_thread_button:not(.hidden_thread) {
+    .hide_thread_button {
         display: none !important;
         /*font-size: 10px !important;
         font-family: Lucida Grande !important;
         color: #ff0000 !important;
         float: right !important;
-        margin-right: 35px !important;
-        margin-bottom: -15px !important;
-    }
-    
-    .hide_thread_button span {
-        display: block !important;
-        z-index: 5 !important;*/
+        margin-right: 35px !important;*/
     }
     
     .hide_reply_button a::before {
@@ -725,7 +714,6 @@
     }
     
     .opContainer {
-        position: relative !important;
         display: table !important;
         height: 100% !important;
         width: 100% !important;
@@ -1028,6 +1016,7 @@
     }
 
     #qr input[type="checkbox"] {
+        -moz-appearance: none !important;
         top: 8px !important;
         display: block !important;
         position: fixed !important;
@@ -1038,7 +1027,6 @@
         height: 12px !important;
         z-index: 5;
         
-        -moz-appearance: none !important;
         background: transparent !important;
         color: #3a78d4 !important;
         border: none !important;
@@ -1297,9 +1285,9 @@
         margin: 0px !important;
     }
 
-	.inline .post.op .fileInfo {
-		margin-left: 0px !important;
-	}
+    .inline .post.op .fileInfo {
+        margin-left: 0px !important;
+    }
 
     #qp {
         box-shadow: 0px 0px 2px rgba(0,0,0,0.3);
@@ -1362,6 +1350,7 @@
     div.closed {
         padding: 10px !important;
     }
+    
 }
 
 @-moz-document regexp("https://boards\\.4chan\\.org\\/(.|..|...)\\/catalog") {
