@@ -11,4 +11,7 @@ Installation (assuming Firefox)
 
 If you don't use Firefox, you'll have to adapt the 4chan stylesheet so it does not make any reference to the Gecko engine (lines starting with "-moz"). Note that since there are three websites affected by the stylesheet, each defined using @-moz-document, you might have to split the stylesheet in three parts. Needless to say, the userChrome.css won't work on other browsers.
 
+Additional setup
+----------------
+
 For Firefox, I also use the FXChrome theme, and the Movable Firefox Button and Favicon Restorer extensions.
