@@ -163,7 +163,7 @@
     box-shadow: 0px 1px 1px rgba(0,0,0,0.07) !important;
 }
 
-#reload-button, #downloads-indicator {
+#reload-button, #downloads-button {
     width: 31px !important;
     margin: 4px !important;
     background: -moz-linear-gradient(#f6f6f6,#ebebeb) !important;
@@ -172,7 +172,7 @@
     box-shadow: 0px 1px 1px rgba(0,0,0,0.07) !important;
 }
 
-#downloads-indicator {
+#downloads-button {
     margin-right: 8px !important;
 }
 
