@@ -1,0 +1,109 @@
+/* Line at top in contacts pane, similar to .documents-scrolledwin.frame */
+.contacts-content.frame {
+ border-width: 1px 0 0 0;
+ border-radius: 0;
+}
+
+/* Background color in contacts pane, similar to .documents-main-view.view */
+.contacts-main-view.view {
+}
+
+.contacts-suggestion {
+ background-color: #434343;
+ color: #ffffff;
+ border-radius: 4px;
+}
+
+/* Border on the right in the left menu toolbar */
+.contacts-left-toolbar.toolbar.menubar {
+}
+
+.contacts-left-toolbar.toolbar.menubar:backdrop {
+    border-image: none;
+    border-color: transparent;
+}
+
+/* Sidebar with line at top and the left */
+ContactsWindow .sidebar.frame {
+ border-width: 1px 1px 0 0;
+ border-style: solid;
+ border-color: shade(@theme_bg_color, 0.9);
+ border-image: none;
+ border-radius: 0;
+ padding: 0;
+}
+
+.contacts-avatar-frame.frame {
+ border-width: 1px 1px 0 1px;
+ border-style: solid;
+ border-color: red;
+ border-image: none;
+ border-radius: 0;
+ padding: 0;
+}
+
+/* Primary toolbar with no line at top to avoid conflicts with frame border */
+ContactsWindow .primary-toolbar.toolbar {
+    border-width: 0;
+    border-radius: 0px;
+    /*background-image: none;
+    background-color: @theme_bg_color;*/
+}
+
+ContactsWindow .sidebar .view {
+    background-color: @theme_base_color;
+}
+ContactsWindow .sidebar .view:selected,
+ContactsWindow .sidebar .view:selected:focus {
+    background-color: @theme_selected_bg_color;
+}
+
+.contacts-button:active {
+ border-color: #000000;
+ border-image: none;
+}
+
+.contacts-entry {
+     box-shadow: none;
+     border-image: none;
+     border-width: 1px;
+     border-radius: 4px;
+     border-style: solid;
+     border-color: #bbbeb7;
+     background-image: none;
+     background-color: #ffffff;
+}
+
+.contacts-entry:selected,
+.contacts-entry:selected:focus {
+ background-color: @theme_selected_bg_color;
+ color: @theme_selected_fg_color;
+}
+
+.contacts-entry.contacts-postal-entry {
+ border-radius: 0 0 0 0;
+ border-width: 1px 1px 0 1px;
+}
+
+.contacts-entry.contacts-postal-entry:nth-child(first) {
+ border-radius: 4px 4px 0 0;
+}
+
+.contacts-entry.contacts-postal-entry:nth-child(last) {
+ border-radius: 0 0 4px 4px;
+ border-width: 1px;
+}
+
+.button.contacts-square {
+ padding: 0px;
+}
+
+.contacts-combo .button {
+ border-image: none;
+ border-width: 1px;
+ border-style: solid;
+ border-color: #bbbeb7;
+ background-image: none;
+ background-color: #ffffff;
+}
+
