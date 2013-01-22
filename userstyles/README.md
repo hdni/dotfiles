@@ -17,6 +17,7 @@ If you don't use Firefox, you'll have to adapt the 4chan stylesheet so it does n
 Additional setup
 ----------------
 * For 4chan, I use 4chan X. The stylesheet will *not* look right in many places if you don't use 4chan X.
+* In order for the buttons to work right, you will have to enable the thread watcher, persistent QR and autohide QR.
 
 userChrome.css
 ==============
