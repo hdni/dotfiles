@@ -1,4 +1,4 @@
-@-moz-document domain("boards.4chan.org") {
+n("boards.4chan.org") {
     body {
       background: #eee !important;
       font-family: Lucida Grande !important;
@@ -9,8 +9,8 @@
     a.useremail[href*='sage']:last-of-type::after,
     a.useremail[href*='Sage']:last-of-type::after,
     a.useremail[href*='SAGE']:last-of-type::after {
-        content: " (SAGE)" !important;
-        color: #d43a47 !important;
+        content: " (sage)" !important;
+        color: #d48e94 !important;
         font-size: 9pt !important;
         font-weight: bold !important;
     }
@@ -36,7 +36,8 @@
     }
     
     #spoilerLabel {
-        color: #ccc !important
+        color: #0c192b !important;
+        text-shadow: 0px 1px 1px #619bf2 !important;
     }
 
     .name {
@@ -185,8 +186,14 @@
     h1,
     #imageType,
     select#imageType,
-    div.center {
+    div.center,
+    #hideBtn {
         display: none !important;
+    }
+    
+    /* Hide ugly outline on clicked elements */
+    *:active, *:focus {
+        outline: none !important;
     }
     
     .postNum a[title="Highlight this post"] {
@@ -201,14 +208,14 @@
         margin: 0 auto !important;
         padding-top: 28px !important;
         padding-bottom: 5px !important;
-        margin-bottom: -10px !important;
+        margin-bottom: -25px !important;
         box-shadow: 0px 1px 1px rgba(0,0,0,0.1) !important;
         border-radius: 1px !important;
     }
     
     .boardTitle {
         color: #444 !important;
-        font: normal 300 34pt Droid Serif !important;
+        font: normal 400 34pt Georgia !important;
         letter-spacing: 0px !important;
         margin-bottom: 4px !important;
     }
@@ -372,7 +379,7 @@
         margin: 2px !important;
     }
     
-    strong, h2 {
+    #globalMessage strong, h2 {
         margin: 2px !important;
         font-size: 10pt !important;
         color: #eeeeee !important;
@@ -544,7 +551,7 @@
         color: transparent !important;
     }
     
-    /*Disable thread hiding. To do: fix the stubs and position the button correctly!*/
+/*Disable thread hiding. To do: fix the stubs and position the button correctly!*/
     .hide_thread_button {
         display: none !important;
         /*font-size: 10px !important;
@@ -724,8 +731,10 @@
     #options.reply.dialog {
         background: #fff !important;
         color: #555 !important;
-        border-radius: 4px !important;
-        box-shadow: 0px 1px 1px rgba(0,0,0,0.3) !important;
+        border-radius: 2px !important;
+        /*box-shadow: 0px 1px 1px rgba(0,0,0,0.3) !important;*/
+        outline: 5px solid rgba(0,0,0,0.2) !important;
+        border: none !important;
         z-index: 5 !important;
     }
     
@@ -843,7 +852,7 @@
     }
 
     .post.op .file {
-        background: #ddd !important;
+        background: #e1e1e1 !important;
         margin-right: 0px !important;
         margin-top: -10px !important;
         padding-bottom: 1px !important;
@@ -888,7 +897,7 @@
         display: table;
         z-index: 0 !important;
         box-shadow: 0px 1px 2px -1px rgba(0,0,0,0.2) !important;
-        border-radius:2px !important;
+        border-radius: 2px !important;
     }
 
     /*.postContainer:nth-of-type(odd) {
@@ -909,7 +918,7 @@
         margin-top: 2px !important;
         margin-bottom: -11px !important;
         border-radius: 1px !important;
-        box-shadow: 0px 1px 2px rgba(0,0,0,0.3) !important;
+        box-shadow: 0px 1px 2px rgba(0,0,0,0.2) !important;
     }
     
     .fileThumb {
@@ -949,7 +958,6 @@
     .post.op .postInfo {
         background: transparent !important;
         margin-right: 0px !important;
-        margin-left: 0 !important;
         border: none !important;
     }
     
@@ -1014,7 +1022,7 @@
         border: none !important;
     }
 
-    #qr input[type="checkbox"] {
+    #qr input#autohide {
         -moz-appearance: none !important;
         top: 8px !important;
         display: block !important;
@@ -1031,8 +1039,18 @@
         border: none !important;
     }
 
-    #qr:hover input[type="checkbox"] {
+    #qr:hover input#autohide {
         top: 8px !important;
+    }
+
+    #qr input#spoiler {
+        -moz-appearance: none !important;
+        background: transparent !important;
+        color: #0c192b !important;
+        box-shadow: 0px 1px 1px #619bf2 !important;
+        border: 1px solid #0c192b !important;
+        border-radius: 2px !important; 
+        cursor: pointer !important;
     }
 
     #qr .move {
@@ -1372,7 +1390,7 @@
     
     #threads {
         margin: 0 auto !important;
-        margin-top: 30px !important;
+        margin-top: 50px !important;
         width: 94% !important;
         background-color: #fff !important;
         box-shadow: 0px 1px 2px -1px rgba(0,0,0,0.2) !important;
@@ -1546,6 +1564,10 @@
     #recaptcha_switch_audio, 
     #recaptcha_whatsthis {
         display: none !important;
+    }
+    
+    #recaptcha_table {
+        border: none !important;
     }
     
     fieldset {
