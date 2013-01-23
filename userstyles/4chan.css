@@ -1,6 +1,6 @@
-n("boards.4chan.org") {
+@-moz-document domain("boards.4chan.org") {
     body {
-      background: #eee !important;
+      background: #edeef0 !important;
       font-family: Lucida Grande !important;
       font-size: 10pt !important;
     }
@@ -16,23 +16,23 @@ n("boards.4chan.org") {
     }
         
     .useremail .name {
-        color: #555 !important;
+        color: #5c6066 !important;
         text-decoration: none !important;
         font-weight: bold !important;
     }
 
     .useremail .name:hover {
-        color: #333 !important;
+        color: #2e3033 !important;
     }
     
     a.useremail {
-        color: #aaa !important;
+        color: #999faa !important;
         font-style: italic !important;
         text-decoration: none !important;
     }
     
     a.useremail:hover {
-        color: #888 !important;
+        color: #7a7f88 !important;
     }
     
     #spoilerLabel {
@@ -41,38 +41,38 @@ n("boards.4chan.org") {
     }
 
     .name {
-        color: #555 !important;
+        color: #5c6066 !important;
         font-weight: bold !important;
         text-decoration: none !important;
     }
            
     .postertrip {
-        color: #555 !important;
+        color: #5c6066 !important;
     }
 
     .dateTime {
-        color: #aaa !important;
+        color: #999faa !important;
         font-style: italic !important;
     }
     
     .fileText {
-        color: #999 !important;
+        color: #999faa !important;
     }
 
     .postNum a, .inline .postNum a {
-        color: #999 !important;
+        color: #7c818a !important;
     }
 
     .postNum a:hover, .inline .postNum a:hover {
-        color: #777 !important;
+        color: #5c6066 !important;
     }
 
     .fileInfo a, .fileText a, .inline .fileInfo a, .inline .fileText a {
-        color: #777 !important;
+        color: #7c818a !important;
     }
 
     .fileText a:hover, .fileInfo a:hover, .inline .fileInfo a:hover, .inline .fileText a:hover {
-        color: #555 !important;
+        color: #5c6066 !important;
     }
     
     .fileInfo a {
@@ -91,7 +91,7 @@ n("boards.4chan.org") {
     }
 
     a.replylink:hover {
-        color: #aaa !important;
+        color: #999faa !important;
     }
 
     .post.op .postNum > span {
@@ -100,15 +100,15 @@ n("boards.4chan.org") {
     }
 
     .backlink, .inline .backlink {
-        color: #666 !important;
+        color: #5c6066 !important;
         text-decoration: none !Important;
     }
     .backlink:hover, .inline .backlink:hover {
-        color:#444 !important;
+        color:#2e3033 !important;
     }
     
     .postMessage {
-        color: #3a3a3a !important;
+        color: #34363a !important;
     }
     
     .warning > a, .warning, #errmsg {
@@ -130,14 +130,12 @@ n("boards.4chan.org") {
     }
     
     .subject {
-        color: #777 !important;
+        color: #7a7f88 !important;
         font-weight: bold !important;
-        font-style: italic !important;
-        /*margin-right: 10px !important;*/
     }
     
     .summary {
-        color: #aaa !important;
+        color: #999faa !important;
         float: right !important;
         margin-right: 2px !important;
         padding-bottom: 0px !important;
@@ -145,25 +143,25 @@ n("boards.4chan.org") {
     }
     
     .summary:hover {
-        color: #888 !important;
+        color: #7a7f88 !important;
     }
 
     .abbr {
         font-size: 9pt !important;
-        color: #ccc !important;
+        color: #999faa !important;
     }
     
     .filtered, .inline .filtered, a.quotelink.filtered {
         text-decoration: line-through !important;
-        color: #aaa !important;
+        color: #999faa !important;
     }
     
     .nameBlock .posteruid {
-        color: #aaa !important;
+        color: #999faa !important;
     }
 
     .nameBlock > .posteruid > .hand:hover {
-        color: #888 !important;
+        color: #7a7f88 !important;
     }
 
     .nameBlock strong {
@@ -171,7 +169,7 @@ n("boards.4chan.org") {
     }
 
     .deadlink {
-        color: #aaa !important;
+        color: #999faa !important;
     }
 
     /*Things to hide*/
@@ -214,7 +212,7 @@ n("boards.4chan.org") {
     }
     
     .boardTitle {
-        color: #444 !important;
+        color: #5c6066 !important;
         font: normal 400 34pt Georgia !important;
         letter-spacing: 0px !important;
         margin-bottom: 4px !important;
@@ -222,7 +220,7 @@ n("boards.4chan.org") {
 
     .boardSubtitle {
         margin-top: -2px !important;
-        color: #666 !important;
+        color: #5c6066 !important;
         font: normal 8pt Lucida Grande !important;
     }
 
@@ -253,8 +251,8 @@ n("boards.4chan.org") {
         z-index: 2 !important;
         text-align: center !important;
         
-        border-top: 5px solid #eee !important;
-        box-shadow: 0px 4px 3px rgba(0,0,0,0.2) !important;
+        border-top: 5px solid #eceef0 !important;
+        box-shadow: 0px 3px 3px rgba(0,0,0,0.2) !important;
         font-size: 0 !important;
         color: transparent !important;
     }
@@ -284,6 +282,7 @@ n("boards.4chan.org") {
         color: #1a355e !important;
         text-shadow: 0px 1px 1px #619bf2 !important;
         margin-left: 2px !important;
+        font-weight: bold !important;
     }
     
     #boardNavDesktop a[class="current"]{
@@ -374,7 +373,7 @@ n("boards.4chan.org") {
     
     #globalMessage h3 {
         font-size: 10pt !important;
-        color: #eeeeee !important;
+        color: #eceef0 !important;
         font-weight: normal !important;
         margin: 2px !important;
     }
@@ -382,7 +381,7 @@ n("boards.4chan.org") {
     #globalMessage strong, h2 {
         margin: 2px !important;
         font-size: 10pt !important;
-        color: #eeeeee !important;
+        color: #eceef0 !important;
         font-weight: normal !important;
     }
     
@@ -462,6 +461,19 @@ n("boards.4chan.org") {
         font-size: 9pt !important;
     }
        
+    .postNum .replylink::before,
+    .container::before {
+        color: #999faa !important;
+        content: "\00B7" !important;
+        font-weight: normal !important;
+    }   
+    
+    .postInfo .subject:not(:empty)::after {
+        content: "\A0\00B7" !important;
+        font-weight: normal !important;
+        color: #999faa !important;
+    }
+    
     /*Settings integration into the navbar*/
     a.settingsWindowLink {
         position: fixed !important;
@@ -583,14 +595,13 @@ n("boards.4chan.org") {
         margin-bottom: 0px !important;
         margin-right: 0px !important;
         width: 100% !important;
-        background: #f5f5f5 !important;
+        background: #f3f3f5 !important;
         border-radius: 2px !important;
     }
     
     .hide_reply_button.stub a {
         margin-left: 0px !important;
-        
-        color: #aaa !important;
+        color: #999faa !important;
         font-family: Lucida Grande !important;
         font-size: 9pt !important;
     }
@@ -600,7 +611,7 @@ n("boards.4chan.org") {
     }
     
     .hide_reply_button.stub > a:hover {
-        color: #888 !important;
+        color: #7a7f88 !important;
     }
 
     .hide_reply_button.stub span {
@@ -628,7 +639,7 @@ n("boards.4chan.org") {
         margin-right: 7px !important;
         content: "+" !important;
         font-size: 9pt !important;
-        color: #aaa !important;
+        color: #999faa !important;
         font-family: Lucida Grande !important;
     }
 
@@ -710,14 +721,14 @@ n("boards.4chan.org") {
 
     .entry, .subMenu {
         background: #ffffff !important;
-        border-color: #eee !important;
-        color: #777 !important;
+        border-color: #eceef0 !important;
+        color: #7a7f88 !important;
         font-family: Lucida Grande !important;
         font-size: 8pt !important;
     }
     
     .entry:hover {
-        color: #555 !important;
+        color: #5c6066 !important;
     }
     
     .opContainer {
@@ -730,7 +741,7 @@ n("boards.4chan.org") {
 
     #options.reply.dialog {
         background: #fff !important;
-        color: #555 !important;
+        color: #5c6066 !important;
         border-radius: 2px !important;
         /*box-shadow: 0px 1px 1px rgba(0,0,0,0.3) !important;*/
         outline: 5px solid rgba(0,0,0,0.2) !important;
@@ -741,7 +752,13 @@ n("boards.4chan.org") {
     #options.reply.dialog label {
         text-decoration: none !important;
         font-style: italic !important;
-        color: #333 !important;
+        color: #2e3033 !important;
+    }
+    
+    #optionsbar {
+        border-bottom: 1px solid #eceef0 !important;
+        padding: 5px !important;
+        margin: -5px !important;
     }
     
     #overlay {
@@ -750,7 +767,7 @@ n("boards.4chan.org") {
     
     .dialog {
         background: #fff !important;
-        color: #333 !important;
+        color: #2e3033 !important;
     }
     
     /*Thread watcher integration into the navbar*/
@@ -815,7 +832,7 @@ n("boards.4chan.org") {
     }
     
     #watcher a {
-        color: #eee !important;
+        color: #eceef0 !important;
         text-decoration: none !important;
         margin-left: -2px !important;
     }
@@ -846,16 +863,17 @@ n("boards.4chan.org") {
     .post.reply > .file > .fileInfo {
         margin-left: -2px !important;
         font-size: 10pt !important;
-        background: /*#f5f5f5*/ rgba(0,0,0,0.03) !important;
+        background: #f5f5f7 !important;
         margin-right: 2px !important;
         padding-bottom: 2px !important;
     }
 
     .post.op .file {
-        background: #e1e1e1 !important;
+        background: transparent !important;
         margin-right: 0px !important;
         margin-top: -10px !important;
-        padding-bottom: 1px !important;
+        padding-top: 2px !important;
+        padding-bottom: 2px !important;
         border-top-left-radius: 2px !important;
         border-top-right-radius: 2px !important;
     }
@@ -871,7 +889,6 @@ n("boards.4chan.org") {
     }
     
     .backlink:first-child::before {
-        color: #aaa !important;
         margin-left: -4px !important;
     }
     
@@ -885,7 +902,7 @@ n("boards.4chan.org") {
         margin: 0 auto !important;
         margin-bottom: 0px !important;
         margin-top: 20px !important;
-        background-color: #eee !important;
+        background-color: #eceef0 !important;
         width: 94% !important;
     }
 
@@ -907,8 +924,9 @@ n("boards.4chan.org") {
     .post.op .postMessage {
         margin-top: 0px !important;
         padding-top: 10px !important;
-        border-top: 1px solid #eee !important;
-        margin-right: 0px !important;
+        border-top: 1px solid #eceef0 !important;
+        margin-right: 0 !important;
+        margin-left: 20% !important;
         padding-right: 20px !important;
     }
 
@@ -917,6 +935,7 @@ n("boards.4chan.org") {
         margin-left: -18px !important;
         margin-top: 2px !important;
         margin-bottom: -11px !important;
+        margin-right: -4px !important;
         border-radius: 1px !important;
         box-shadow: 0px 1px 2px rgba(0,0,0,0.2) !important;
     }
@@ -942,7 +961,7 @@ n("boards.4chan.org") {
         
         font-size: 9pt !important;
         background: transparent !important;
-        border-bottom: 1px solid #eee !important;
+        border-bottom: 1px solid #eceef0 !important;
         border-top-left-radius: 2px !important;
         border-top-right-radius: 2px !important;
     }
@@ -958,11 +977,12 @@ n("boards.4chan.org") {
     .post.op .postInfo {
         background: transparent !important;
         margin-right: 0px !important;
+        margin-left: 0px !important;
         border: none !important;
     }
     
     .prev, .next {
-        color: #333 !important;
+        color: #2e3033 !important;
         background-color: transparent !important;
         margin-top: 1px !important;
         
@@ -975,7 +995,7 @@ n("boards.4chan.org") {
         position: relative !important;
         display: block !important;
         background-color: transparent !important;
-        color: #aaa !important;
+        color: #999faa !important;
         border: none !important;
         width: 450px !important;
         margin: 0 auto !important;
@@ -987,25 +1007,25 @@ n("boards.4chan.org") {
     }
 
     .pagelist a {
-        color: #777 !important; 
+        color: #7a7f88 !important; 
     }
     
     .pagelist a:hover {
-        color: #555 !important;
+        color: #5c6066 !important;
     }
     
     .pagelist strong {
         font-weight: bold !important;
-        color: #333 !important;
+        color: #2e3033 !important;
     }
 
     .cataloglink {
-        color: transparent !important;
-        font-size: 0px !important;
+        border: none !important;
     }
     
     .cataloglink a {
         font-size: 9pt !important;
+        color: #999faa !important;
     }
 
     /*QR integration into the navbar, including checkbox for autohide*/
@@ -1124,7 +1144,7 @@ n("boards.4chan.org") {
     }
     
     #qr input::-moz-placeholder, #qr textarea::-moz-placeholder {
-        color: #aaa !important;
+        color: #999faa !important;
         font-size: 9pt !important;
         text-transform: lowercase !important;
         margin-top: 0px !important;
@@ -1133,13 +1153,13 @@ n("boards.4chan.org") {
 
    input[title="Name"].field {
         border: none !important;
-        border-left: 1px solid #eee !important;
+        border-left: 1px solid #eceef0 !important;
         margin-left: 40px !important;
    }
   
    input[title="Subject"].field {
         border: none !important;
-        border-left: 1px solid #eee !important;
+        border-left: 1px solid #eceef0 !important;
         border-top-right-radius: 2px !important;
    }
 
@@ -1156,8 +1176,8 @@ n("boards.4chan.org") {
         
         font-size: 10pt !important;
         background: #fff !important;
-        color: #333 !important;
-        border-bottom: 1px solid #eee !important;
+        color: #2e3033 !important;
+        border-bottom: 1px solid #eceef0 !important;
     }
     
     input[title="Dump list"] {
@@ -1170,7 +1190,7 @@ n("boards.4chan.org") {
         
         background: #fff !important;
         border: none !important;
-        border-bottom: 1px solid #eee !important;
+        border-bottom: 1px solid #eceef0 !important;
         border-top-left-radius: 2px !important;
     }
 
@@ -1187,7 +1207,7 @@ n("boards.4chan.org") {
         font-size: 10pt !important;
         
         background: #fff !important;
-        color: #333 !important;
+        color: #2e3033 !important;
         border: none !important;
     }
     
@@ -1204,8 +1224,8 @@ n("boards.4chan.org") {
         background: #fff !important;
         color: #ccc !important;
         border: none !important;
-        border-left: 1px solid #eee !important;
-        border-bottom: 1px solid #eee !important;
+        border-left: 1px solid #eceef0 !important;
+        border-bottom: 1px solid #eceef0 !important;
         text-transform: lowercase !important;
     }
     
@@ -1218,14 +1238,14 @@ n("boards.4chan.org") {
         height: 26px !important;
         border: none !important;
         background: #fff !important;
-        color: #333 !important;
+        color: #2e3033 !important;
     }
     
     #qr .captchaimg {
         outline: none !important;
         border: none !important;
-        border-top: 1px solid #eee !important;
-        border-bottom: 1px solid #eee !important;
+        border-top: 1px solid #eceef0 !important;
+        border-bottom: 1px solid #eceef0 !important;
         margin: 0 auto !important;
         background: #fff !important;
     }
@@ -1246,10 +1266,10 @@ n("boards.4chan.org") {
         
         -moz-appearance: none;
         background: #fff !important;
-        color: #333 !important;
+        color: #2e3033 !important;
         font-size: 9pt !important;
         border: none !important;
-        border-top: 1px solid #eee !important;
+        border-top: 1px solid #eceef0 !important;
         border-bottom-left-radius: 2px !important;
     }
     
@@ -1271,8 +1291,8 @@ n("boards.4chan.org") {
         background: #fff !important;
         color: #ccc !important;
         border: none !important;
-        border-top: 1px solid #eee !important;
-        border-left: 1px solid #eee !important;
+        border-top: 1px solid #eceef0 !important;
+        border-left: 1px solid #eceef0 !important;
         border-bottom-left-radius: 0px !important;
         border-bottom-right-radius: 2px !important;
         text-transform: lowercase !important;
@@ -1372,7 +1392,7 @@ n("boards.4chan.org") {
 
 @-moz-document regexp("https://boards\\.4chan\\.org\\/(.|..|...)\\/catalog") {
     body {
-        background: #eee !important;
+        background: #eceef0 !important;
         font-family: Lucida Grande !important;
         font-size: 10pt !important;
         color: #3a3a3a !important;
@@ -1534,7 +1554,7 @@ n("boards.4chan.org") {
         box-shadow: inset 0px 1px 1px #1a355e !important;
         border: none !important;
         border-radius: 2px !important;
-        color: #eee !important;
+        color: #eceef0 !important;
         
         visibility: visible !important;
         display: block !important;
@@ -1571,17 +1591,17 @@ n("boards.4chan.org") {
     }
     
     fieldset {
-        border: 1px solid #eee !important;
+        border: 1px solid #eceef0 !important;
         margin-bottom: -5px !important;
         padding-bottom: 4px !important;
     }
     
     legend {
-        color: #aaa !important;
+        color: #999faa !important;
     }
     
     #recaptcha_image {
-        border: 1px solid #eee !important;
+        border: 1px solid #eceef0 !important;
         margin-top: 7px !important;
     }
     
@@ -1591,13 +1611,13 @@ n("boards.4chan.org") {
     
     #recaptcha_response_field {
         -moz-appearance: none !important;
-        border: 1px solid #eee !important;
+        border: 1px solid #eceef0 !important;
         background: #fff !important;
-        color: #aaa !important;
+        color: #999faa !important;
         margin-top: -2px !important;
     }
     
     .rules {
-        color: #aaa !important;
+        color: #999faa !important;
     }
 }
