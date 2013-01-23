@@ -461,7 +461,6 @@
         font-size: 9pt !important;
     }
        
-    .postNum .replylink::before,
     .container::before {
         color: #999faa !important;
         content: "\00B7" !important;
