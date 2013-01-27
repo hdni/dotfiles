@@ -258,22 +258,18 @@
     }
     
     #boardNavDesktop::before {
-        position: relative !important;
-        display: inline !important;
         float: left !important;
         content: url('http://i.imgur.com/PADEO.png') !important;
-        top: -2px !important;
-        left: -26px !important;
+        margin-top: -2px !important;
+        margin-left: -26px !important;
         z-index: 0 !important;
     }
 
     #boardNavDesktop::after {
-        position: relative !important;
-        display: inline !important;
         float: right !important;
         content: url('http://i.imgur.com/x8y9k.png') !important;
-        top: -2px !important;
-        right: -26px !important;
+        margin-top: -2px !important;
+        margin-right: -26px !important;
         z-index: 0 !important;
     }
     
@@ -847,12 +843,14 @@
     
     .fileText {
         margin-left: -5px !important;
+    }
+    
+    .fileText, .fileInfo, .fileInfo a {
         font-size: 9pt !important;
     }
     
     .fileInfo a {
         text-decoration: none !important;
-        font-size: 9pt !important;
     }
     
     .fileText > a {
@@ -886,7 +884,7 @@
         margin-bottom: 16px !important;
         
     }
-    
+
     .backlink:first-child::before {
         margin-left: -4px !important;
     }
@@ -925,7 +923,7 @@
         padding-top: 10px !important;
         border-top: 1px solid #eceef0 !important;
         margin-right: 0 !important;
-        margin-left: 20% !important;
+        margin-left: 20px !important;
         padding-right: 20px !important;
     }
 
@@ -935,8 +933,8 @@
         margin-top: 2px !important;
         margin-bottom: -11px !important;
         margin-right: -4px !important;
-        border-radius: 1px !important;
-        box-shadow: 0px 1px 2px rgba(0,0,0,0.2) !important;
+        border-radius: 2px !important;
+        /*box-shadow: 0px 1px 2px rgba(0,0,0,0.2) !important;*/
     }
     
     .fileThumb {
