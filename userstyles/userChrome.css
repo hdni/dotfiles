@@ -209,7 +209,7 @@
 }
 
 /* Change icon's opacity so it fits with the rest of the theme */
-#reload-button .toolbarbutton-icon, #downloads-indicator .toolbarbutton-icon {
+#reload-button .toolbarbutton-icon, #downloads-indicator .toolbarbutton-icon, #downloads-button .toolbarbutton-icon {
     opacity: 0.55 !important;
 }
 
