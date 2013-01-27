@@ -52,7 +52,6 @@
 
     .dateTime {
         color: #999faa !important;
-        font-style: italic !important;
     }
     
     .fileText {
@@ -100,11 +99,12 @@
     }
 
     .backlink, .inline .backlink {
-        color: #5c6066 !important;
+        color: #7c818a !important;
         text-decoration: none !Important;
     }
+    
     .backlink:hover, .inline .backlink:hover {
-        color:#2e3033 !important;
+        color:#5c6066 !important;
     }
     
     .postMessage {
@@ -150,12 +150,12 @@
         font-size: 9pt !important;
         color: #999faa !important;
     }
-    
-    .filtered, .inline .filtered, a.quotelink.filtered {
-        text-decoration: line-through !important;
+
+    .quotelink.filtered {
         color: #999faa !important;
+        text-decoration: line-through !important;
     }
-    
+
     .nameBlock .posteruid {
         color: #999faa !important;
     }
@@ -456,17 +456,23 @@
     input[value="Update Now"], input[value="Previous"], input[value="Next"] {
         font-size: 9pt !important;
     }
-       
+    
+    
+    .postInfo .subject:not(:empty)::after,
+    .nameBlock::after,
     .container::before {
-        color: #999faa !important;
-        content: "\00B7" !important;
+        color: #e4e8ee !important;
+        content: "\A0\26AB\A0" !important;
         font-weight: normal !important;
+        font-size: 8px !important;
     }   
     
-    .postInfo .subject:not(:empty)::after {
-        content: "\A0\00B7" !important;
+    .postInfo .subject:not(:empty)::after,
+    .dateTime::after {
+        color: #e4e8ee !important;
+        content: "\A0\A0\26AB\A0" !important;
         font-weight: normal !important;
-        color: #999faa !important;
+        font-size: 8px !important;
     }
     
     /*Settings integration into the navbar*/
@@ -887,6 +893,20 @@
 
     .backlink:first-child::before {
         margin-left: -4px !important;
+    }
+    
+    .backlink {
+        font-size: 0 !important;
+    }
+    
+    .backlink:after {
+        content: url('http://i.imgur.com/S16zbNg.png') !important;
+        font-size: 9pt !important;
+        margin-right: 4px !important;
+    }
+    
+    .backlink.filtered:after {
+        opacity: 0.55 !important;
     }
     
     .post.op .backlink:first-child {
