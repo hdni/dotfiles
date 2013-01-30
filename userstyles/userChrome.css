@@ -35,6 +35,12 @@
     background-color: #cecece !important;
 }
 
+#addon-bar {
+    background: -moz-linear-gradient(#f4f4f4, #dfdfdf) !important;
+    border-top: 1px solid #cecece !important;
+    height: 36px !important;
+}
+
 #urlbar {
     color: #444 !important;
     border: 1px solid #bdbdbd !important;
@@ -48,6 +54,16 @@
     margin-right: 4px !important;
     height: 28px !important;
 }
+
+#searchbar .searchbar-textbox{
+    color: #444 !important;
+    border: 1px solid #bdbdbd !important;
+    border-radius: 3px !important;
+    background: #fff !important;
+    box-shadow: inset 0px 1px 3px rgba(0,0,0,0.12) !important;
+    height: 28px !important;
+}
+    
 
 #tabbrowser-tabs {
     background: -moz-linear-gradient(#eee,#dfdfdf) !important;
@@ -165,7 +181,16 @@
     box-shadow: 0px 1px 1px rgba(0,0,0,0.07) !important;
 }
 
-#reload-button, #downloads-button, #downloads-indicator {
+#reload-button, 
+#downloads-button, 
+#downloads-indicator, 
+#appmenu-toolbar-button, 
+#tabview-button,
+#bookmarks-menu-button,
+#bookmarks-button,
+#home-button,
+#stop-button,
+#alltabs-button {
     width: 31px !important;
     margin: 4px !important;
     background:-moz-linear-gradient(#fdfdfd,#eee) !important;
@@ -174,12 +199,32 @@
     box-shadow: 0px 1px 1px rgba(0,0,0,0.07) !important;
 }
 
-#back-button:hover, #forward-button:hover, #reload-button:hover, #downloads-indicator:hover {
+#back-button:hover, 
+#forward-button:hover, 
+#reload-button:hover, 
+#downloads-indicator:hover, 
+#appmenu-toolbar-button:hover, 
+#tabview-button:hover,
+#bookmarks-menu-button:hover,
+#bookmarks-button:hover,
+#home-button:hover,
+#stop-button:hover,
+#alltabs-button:hover {
     background: -moz-linear-gradient(#f8f8f8,#eaeaea) !important;
     box-shadow: 0px 1px 3px rgba(0,0,0,0.17) !important;
 }
 
-#back-button:active, #forward-button:active, #reload-button:active, #downloads-indicator:active {
+#back-button:active, 
+#forward-button:active, 
+#reload-button:active, 
+#downloads-indicator:active, 
+#appmenu-toolbar-button:active, 
+#tabview-button:active,
+#bookmarks-menu-button:active,
+#bookmarks-button:active,
+#home-button:active,
+#stop-button:active,
+#alltabs-button:active {
     box-shadow: inset 0px -1px 3px rgba(0,0,0,0.07) !important;
     background: -moz-linear-gradient(#e8e8e8,#e1e1e1) !important;
 }
@@ -206,12 +251,30 @@
     -moz-image-region: rect(0px, 29px, 27px, 0px)!important;
 }
 
-/* Change icon's opacity so it fits with the rest of the theme */
-#reload-button .toolbarbutton-icon, #downloads-indicator .toolbarbutton-icon, #downloads-button .toolbarbutton-icon {
+/* Change icons' opacity so it fits with the rest of the theme */
+#reload-button .toolbarbutton-icon, 
+#downloads-indicator .toolbarbutton-icon, 
+#downloads-button .toolbarbutton-icon, 
+#appmenu-toolbar-button .toolbarbutton-icon, 
+#tabview-button .toolbarbutton-icon,
+#bookmarks-menu-button .toolbarbutton-icon,
+#bookmarks-button .toolbarbutton-icon,
+#home-button .toolbarbutton-icon,
+#stop-button .toolbarbutton-icon,
+#alltabs-button .toolbarbutton-icon {
     opacity: 0.55 !important;
 }
 
-#reload-button:hover .toolbarbutton-icon, #downloads-indicator:hover .toolbarbutton-icon {
+#reload-button:hover .toolbarbutton-icon, 
+#downloads-indicator:hover .toolbarbutton-icon, 
+#downloads-button .toolbarbutton-icon,
+#appmenu-toolbar-button:hover .toolbarbutton-icon, 
+#tabview-button:hover .toolbarbutton-icon,
+#bookmarks-menu-button:hover .toolbarbutton-icon,
+#bookmarks-button:hover .toolbarbutton-icon,
+#home-button:hover .toolbarbutton-icon,
+#stop-button:hover .toolbarbutton-icon,
+#alltabs-button:hover .toolbarbutton-icon {
     opacity: 0.9 !important;
 }
 
