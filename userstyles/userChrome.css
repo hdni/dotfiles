@@ -26,6 +26,8 @@
     border: none !important;
     margin-top: -4px !important;
     margin-bottom: 0px !important;
+    margin-right: 2px !important;
+    margin-left: 2px !important;
     padding-top: 0px !important;
 }
 
@@ -141,7 +143,7 @@
     width: 31px !important;
     margin: 4px !important;
     margin-right: 0px !important;
-    margin-left: 8px !important;
+    margin-left: 4px !important;
     background: -moz-linear-gradient(#fdfdfd,#eee) !important;
     border: 1px solid #bdbdbd !important;
     border-radius: 3px !important;
@@ -170,10 +172,6 @@
     border: 1px solid #bdbdbd !important;
     border-radius: 3px !important;
     box-shadow: 0px 1px 1px rgba(0,0,0,0.07) !important;
-}
-
-#downloads-button, #downloads-indicator {
-    margin-right: 8px !important;
 }
 
 #back-button:hover, #forward-button:hover, #reload-button:hover, #downloads-indicator:hover {
