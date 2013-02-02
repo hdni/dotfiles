@@ -86,6 +86,7 @@
 .tabbrowser-tab:hover {
     background: -moz-linear-gradient(#f8f8f8,#eaeaea) !important;
     box-shadow: 0px 1px 3px rgba(0,0,0,0.17) !important;
+    transition: all 0.2s ease 0s;
 }
 
 .tabbrowser-tab[selected=true], .tabbrowser-tab[selected=true]:hover {
@@ -103,6 +104,7 @@
 
 .tab-text:hover {
     color: #555 !important;
+    transition: all 0.2s ease 0s;
 }
 
 .tab-text[selected="true"] {
@@ -148,11 +150,13 @@
     -moz-image-region: rect(0px, 29px, 27px, 0px)!important;
     background: -moz-linear-gradient(#f8f8f8,#eaeaea) !important;
     box-shadow: 0px 1px 3px rgba(0,0,0,0.17) !important;
+    transition: all 0.2s ease 0s;
 }
 
 .tabs-newtab-button:active {
     box-shadow: inset 0px -1px 3px rgba(0,0,0,0.07) !important;
     background: -moz-linear-gradient(#dfdfdf,#d4d4d4) !important;
+    transition: all 0.2s ease 0s;
 }
 
 #back-button {
@@ -212,6 +216,7 @@
 #alltabs-button:hover {
     background: -moz-linear-gradient(#f8f8f8,#eaeaea) !important;
     box-shadow: 0px 1px 3px rgba(0,0,0,0.17) !important;
+    transition: all 0.2s ease 0s;
 }
 
 #back-button:active, 
@@ -227,6 +232,7 @@
 #alltabs-button:active {
     box-shadow: inset 0px -1px 3px rgba(0,0,0,0.07) !important;
     background: -moz-linear-gradient(#e8e8e8,#e1e1e1) !important;
+    transition: all 0.2s ease 0s;
 }
 
 
@@ -239,6 +245,7 @@
 #back-button:hover .toolbarbutton-icon {
     list-style-image: url("file:///home/will/.mozilla/firefox/3z2gw6je.clean/chrome/assets/back-button-hover.png") !important;
     -moz-image-region: rect(0px, 29px, 27px, 0px)!important;
+    transition: all 0.2s ease 0s;
 }
 
 #forward-button .toolbarbutton-icon {
@@ -249,6 +256,7 @@
 #forward-button:hover .toolbarbutton-icon {
     list-style-image: url("file:///home/will/.mozilla/firefox/3z2gw6je.clean/chrome/assets/forward-button-hover.png") !important;
     -moz-image-region: rect(0px, 29px, 27px, 0px)!important;
+    transition: all 0.2s ease 0s;
 }
 
 /* Change icons' opacity so it fits with the rest of the theme */
@@ -276,6 +284,7 @@
 #stop-button:hover .toolbarbutton-icon,
 #alltabs-button:hover .toolbarbutton-icon {
     opacity: 0.9 !important;
+    transition: all 0.2s ease 0s;
 }
 
 /*Make tabs fit all horizontal width available, no matter how many there are 
@@ -316,6 +325,7 @@ scrollbar {
 }
 scrollbar:hover {
 	background-color: ButtonHighlight;
+	transition: all 0.2s ease 0s;
 }
 scrollbar thumb {
 	border: none !important;
@@ -325,9 +335,11 @@ scrollbar thumb {
 }
 scrollbar:hover thumb {
 	opacity: 1;
+	transition: all 0.2s ease 0s;
 }
 scrollbar thumb:active ,
 scrollbar thumb:hover {
 	opacity: 1;
 	background-color: ButtonShadow;
+	transition: all 0.2s ease 0s;
 }
