@@ -12,11 +12,11 @@ Installation (assuming Firefox)
 * Go to your Firefox profile directory and make a directory called "chrome". In there, create two files: "userChrome.css" and "userContent.css". In the former, you can put CSS to theme Firefox's user interface; the latter affects websites. If you choose this method, you *will* experience issues with checkboxes and buttons not being affected by some properties (in other words, the QR and its icon won't look right). This is due to Firefox's forms.css overriding modifications made using userContent.css when it affects checkboxes and buttons.
 * You can also use the inline 4chan extension's custom CSS option, but you will have the same problems as the userContent method.
 
-If you don't use Firefox, you'll have to adapt the 4chan stylesheet so it does not make any reference to the Gecko engine (lines starting with "-moz") and uses the corresponding WebKit property. Note that since there are three websites affected by the stylesheet, each defined using @-moz-document, you might have to split the stylesheet in three parts.
+If you don't use Firefox, you'll have to adapt the 4chan stylesheet so it does not make any reference to the Gecko engine (lines starting with "-moz") and uses the corresponding WebKit property. Note that since there are multiple websites affected by the stylesheet, each defined using @-moz-document, you might have to split the stylesheet in different parts.
 
 Additional setup
 ----------------
-* For 4chan, I use 4chan X. The stylesheet will *not* look right in many places if you don't use 4chan X.
+* For 4chan, I use 4chan X. The stylesheet will *not* look right in many places if you don't use 4chan X. Any fork of 4chan X should look right with the userstyles.
 * In order for the buttons to work right, you will have to enable the thread watcher, persistent QR and autohide QR.
 
 userChrome.css
