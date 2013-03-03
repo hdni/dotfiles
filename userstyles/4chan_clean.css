@@ -497,7 +497,6 @@ a.replylink:hover {
     color: #b1b8c4 !important;
 }
 
-
 #updater {
     position: fixed !important;
     bottom: 20px !important;
@@ -511,6 +510,7 @@ a.replylink:hover {
 #updater.reply.dialog {
     background: #fff !important;
     border-color: #e6e8eb !important;
+    border-radius: 2px !important;
 }
 
 #updater.reply.dialog div {
@@ -519,6 +519,16 @@ a.replylink:hover {
 
 #updater label {
     color: #5c6066 !important;
+}
+
+#updater input {
+    -moz-appearance: none !important;
+    border: 1px solid #e6e8eb !important;
+    color: #5c6066 !important;
+    background: #fff !important;
+    border-radius: 2px !important;
+    font-size: 9pt !important;
+    text-transform: lowercase !important;
 }
 
 #count.new {
@@ -1166,6 +1176,11 @@ body {
 
 .meta {
     color: #5c6066 !important;
+}
+
+.error {
+    color: #121821 !important;
+    text-transform: uppercase !important;
 }
 
 }
