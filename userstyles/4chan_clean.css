@@ -1131,6 +1131,14 @@ body {
     font-size: 9pt !important;
 }
 
+#order-ctrl:hover,
+#size-ctrl:hover,
+#teaser-ctrl:hover {
+    background: #5c6066 !important;
+    opacity: 1 !important;
+    transition: all 0.3s ease 0s;
+}
+
 /* Search box */
 #qf-box {
     -moz-appearance: none !important;
