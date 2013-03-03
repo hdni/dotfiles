@@ -1,0 +1,1163 @@
+@-moz-document domain("boards.4chan.org") {
+
+/* Cleanup 
+================================ */
+.boardBanner,
+h1,
+hr,
+.postInfo input[value="delete"],
+.deleteform,
+.stylechanger,
+.absBotDisclaimer,
+#boardNavDesktopFoot,
+.navLinks,
+.navLinksBot,
+.postingMode,
+#updater:hover .move,
+.navLinks,
+iframe,
+.board > div.mobile,
+.hidden_thread ~ .opContainer,
+.postInfoM,
+.postNum.mobile,
+.postLink.mobile,
+.mPageList,
+.navLinksM,
+.postInfo input,
+.sideArrows:not(.hide_reply_button),
+#qp .menu_button {
+    display: none;
+}
+
+/* General
+================================ */
+body {
+    background: #fff !important;
+    color: #3a4956 !important;
+    font-family: Lucida Grande, sans-serif !important;
+    font-size: 10pt !important;
+}
+
+/* Hide ugly outline on clicked elements */
+*:active, *:focus {
+    outline: none !important;
+}
+
+/* Header 
+================================ */
+#boardNavDesktop {
+    /*font-family: "Helvetica Neue", sans-serif !important;*/
+    background: transparent;
+    padding: 5px;
+    text-align: center;
+    width: auto;
+    
+    font-size: 0 !important;
+    color: transparent !important;
+}
+
+#boardNavDesktop a {
+    font-size: 11pt !important;
+    color: #7c818a !important;
+    margin: 2px !important;
+    
+    display: none !important;
+}
+
+#boardNavDesktop a:before, #boardNavDesktop a:after {
+    content: "/";
+}
+
+#boardNavDesktop a[class=current] {
+    font-weight: 600 !important;
+    color: #121821 !important;
+}
+
+#boardNavDesktop a:hover {
+    color: #3a78d4 !important;
+    transition: all 0.3s ease 0s;
+}
+
+#boardNavDesktop a[href="https://boards.4chan.org/g/"],
+#boardNavDesktop a[href="https://boards.4chan.org/fa/"],
+#boardNavDesktop a[href="https://boards.4chan.org/mu/"],
+#boardNavDesktop a[href="https://boards.4chan.org/sci/"] {
+    display: inline !important;
+}
+
+/* Global message toggle */
+#globalMessage {
+    font-family: "Helvetica Neue", sans-serif !important;
+    width: 85% !important;
+    margin: 0 auto !important;
+    color: #121821 !important;
+    font-size: 22pt !important;
+    padding-top: 0px !important;
+}
+
+#globalMessage a {
+    color: #7c818a !important;
+    text-decoration: none !important;
+}
+
+#globalMessage a:hover {
+    color: #3a78d4 !important;
+    transition: all 0.3s ease 0.2s !important;
+}
+
+#globalToggle {
+    display: block !important;
+    width: 240px !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+    padding: 10px !important;
+    
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    background: #32baba !important;
+    border-radius: 2px !important;
+}
+
+#globalToggle:hover {
+    background: #24a1a1 !important;
+    transition: all 0.3s ease 0s;
+}
+
+.globalMessage.hideMobile, #hideBtn {
+    display: none;
+}
+
+/* Posts 
+================================ */
+.thread {
+    width: 85% !important;
+    margin: 0 auto !important;
+}
+
+.post.op {
+    display: table !important;
+    width: 100% !important;
+}
+
+.post.reply {
+    background: transparent !important;
+    border: none !important;
+    width: 100%;
+    margin-top: -1px !important;
+}
+
+.postContainer {
+    width: 100% !important;
+    border-top: 1px solid #e6e8eb;
+    padding-top: 10px !important;
+}
+
+.postMessage {
+    text-align: justify !important;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 98%;
+}
+
+.fileThumb, .fileInfo {
+    margin-left: 0 !important;
+    font-size: 9pt !important;
+}
+
+.fileInfo {
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;
+}
+
+.fileThumb img {
+    border-radius: 1px !important;
+}
+
+/* Code blocks */
+.prettyprint {
+    background-color: transparent !important;
+    border: 1px #e6e8eb solid !important;
+    border-radius: 2px !important;
+        
+    margin-bottom: -6px !important;
+    margin-top: 1px !important;
+    font-size: 9pt !important;
+    padding-bottom: 2px !important;
+    padding-top: 4px !important;
+}
+
+/* Append the content of the email field to the poster's name */
+.nameBlock a:hover::after {
+     content: "(" attr(href) ")";
+     margin-left: 3px;
+     color: #6c81a1 !important;
+     transition: all 0.3s ease 0s;
+}
+
+/* Post info */
+.name {
+    color: #5c6066 !important;
+}
+
+.postertrip {
+    color: #5c6066 !important;
+}
+
+.useremail .name, .useremail .postertrip {
+    color: #6c81a1 !important;
+}
+ 
+a.useremail[href*='sage'] .name,
+a.useremail[href*='Sage'] .name,
+a.useremail[href*='SAGE'] .name,
+a.useremail[href*='sage'] .postertrip,
+a.useremail[href*='Sage'] .postertrip,
+a.useremail[href*='SAGE'] .postertrip {
+    color: #6ca1a1 !important;
+} 
+
+a.useremail[href*='sage'] .name:hover,
+a.useremail[href*='Sage'] .name:hover,
+a.useremail[href*='SAGE'] .name:hover,
+a.useremail[href*='sage'] .postertrip:hover,
+a.useremail[href*='Sage'] .postertrip:hover,
+a.useremail[href*='SAGE'] .postertrip:hover {
+    color: #2ba1a1 !important;
+    transition: all 0.3s ease 0s;
+}
+
+a.useremail {
+    text-decoration: none !important;
+}
+ 
+.dateTime, 
+.fileText,
+.nameBlock > .poseruid {
+    color: #999faa !important;
+    font-size: 9pt !important;
+}
+
+.postMessage a,
+#credits a {
+    color: #3a78d4 !important;
+    text-decoration: none !important;
+}
+
+.postMessage a:hover,
+#credits a:hover {
+    color: #254d87 !important;
+    transition: all 0.3s ease 0s;
+}
+
+.quote {
+    color: #28915d !important;
+}
+
+.subject {
+    color: #121821 !important;
+    font-weight: bold !important;
+}
+
+.summary, .abbr {
+    color: #999faa !important;
+    font-size: 9pt !important;
+}
+
+.nameBlock strong {
+    color: #d43a47 !important;
+}
+
+.quotelink.filtered {
+    color: #999faa !important;
+    text-decoration: line-through !important;
+}
+
+.fileInfo a {
+    color: #7c818a !important;
+    text-decoration: none !important;
+    font-style: italic !important;
+}
+
+.postNum {
+    font-size: 9pt !important;
+}
+
+.postNum a[title="Highlight this post"],
+.postNum a[title="Quote this post"],
+.inline .postNum a,
+.fileText a,
+.inline .fileInfo a,
+.inline .fileText a {
+    color: #7c818a !important;
+    text-decoration: none !important;
+    font-style: normal !important;
+}
+
+.useremail .name:hover,
+.useremail .postertrip:hover,
+.summary:hover,
+.nameBlock > .poseruid > .hand:hover,
+.postNum a[title="Highlight this post"]:hover,
+.postNum a[title="Quote this post"]:hover,
+.inline .postNum a:hover,
+.fileInfo a:hover,
+.fileText a:hover,
+.inline .fileInfo a:hover,
+.inline .fileText a:hover {
+    color: #3a78d4 !important;
+    transition: all 0.3s ease 0s !important;
+}
+
+/* Replace backlinks by arrow icons */
+.backlink:first-child::before {
+    margin-left: -4px !important;
+}
+    
+.backlink {
+    font-size: 0 !important;
+}
+    
+.backlink:after {
+    content: url('http://i.imgur.com/S16zbNg.png') !important;
+    font-size: 9pt !important;
+    margin-right: 4px !important;
+}
+    
+.backlink:hover::after, .backlink.filtered:hover::after {
+    opacity: 0.75 !important;
+    transition: all 0.3s ease 0s;
+}
+    
+.backlink.filtered:after {
+    opacity: 0.55 !important;
+}
+    
+.post.op .backlink:first-child {
+    margin-left: 0px !important;
+} 
+
+/* Hide source links when not hovering over the file info */
+.fileInfo a {
+    opacity: 0 !important;
+}
+
+.fileText a {
+    opacity: 1 !important;
+}
+
+.fileInfo:hover a {
+    opacity: 1 !important;
+    transition: all 0.3s ease 0s;
+}
+
+/* Post buttons */
+.hide_reply_button {
+    opacity: 0 !important;
+    float: right !important;
+    font-size: 0;
+    padding-top: 1px !important;
+}
+
+.menu_button {
+    opacity: 0 !important;
+    float: right;
+    font-size: 0;
+    margin-right: 35px;
+}
+
+.hide_reply_button a:after, .hide_thread_button:after {
+    font-size: 9pt;
+    content: "hide";
+}
+
+.menu_button:after {
+    font-size: 9pt;
+    content: "menu";
+}
+
+.hide_reply_button a, .menu_button, .hide_thread_button {
+    color: #999faa !important;
+}
+
+.hide_reply_button a:hover, .menu_button:hover, .hide_thread_button:hover {
+    color: #3a78d4 !important;
+    transition: all 0.3s ease 0s;
+}
+
+#menu {
+    margin-left: -39px !important;
+}
+
+#menu, #menu .entry, .subMenu {
+    background: #fff !important;
+    color: #999faa !important;
+    font-size: 9pt !important;
+    border-color: #e6e8eb !important;
+}
+
+#menu .entry:hover {
+    color: #3a78d4 !important;
+    transition: all 0.3s ease 0s;
+}
+
+.subMenu {
+    left: -110px !important;
+    width: 108px !important;
+}
+
+/* Stubs of filtered posts (TODO: theme the stubs instead of hiding them) */
+.hide_reply_button.stub {
+    display: none !important;
+}
+
+.postContainer.replyContainer.hidden {
+    border-top: none !important;
+    padding-top: 0 !important;
+}
+
+/* OP buttons */
+.hide_thread_button:after {
+    font-size: 9pt;
+    content: "hide";
+}
+
+.hide_thread_button {
+    opacity: 0 !important;
+    position: absolute !important;
+    margin-top: 20px !important;
+    font-size: 0 !important;
+    right: 8% !important;
+}
+
+.post.op .menu_button {
+    opacity: 0 !important;
+    position: absolute !important;
+    margin-top: -18px !important;
+    right: 8% !important;
+}
+
+.replylink {
+    opacity: 0 !important;
+    position: absolute !important;
+    margin-top: -18px !important;
+    right: 8% !important;
+    margin-right: 87px !important;
+    text-transform: lowercase !important;
+    font-size: 9pt !important;
+}
+
+a.replylink {
+    color: #999faa !important;
+    text-decoration: none !important;
+}
+
+a.replylink:hover {
+    color: #3a78d4 !important;
+    transition: all 0.3s ease 0s;
+}
+
+.postNum span {
+    font-size: 0 !important;
+}
+
+.favicon {
+    position: absolute !important;
+    right: 8% !important;
+    margin-right: 128px !important;
+    width: 15px !important;
+    margin-top: -18px !important;
+    opacity: 0 !important;
+}
+
+/* Make post buttons appear only when hovering over a post */
+.postContainer:hover .hide_reply_button, 
+.postContainer:hover .menu_button,
+.thread:hover .post.op .menu_button,
+.thread:hover .replylink,
+.thread:hover .favicon,
+.thread:hover .hide_thread_button {
+    opacity: 1 !important;
+    transition: all 0.3s ease 0s !important;
+}
+
+/* Thread statistics
+================================ */
+#stats {
+    position: fixed !important;
+    top: auto !important;
+    right: auto !important;
+    bottom: 6px !important;
+    left: 6px !important;
+    
+    font-size: 8pt !important;
+    color: #b1b8c4 !important;
+}
+
+
+#updater {
+    position: fixed !important;
+    bottom: 20px !important;
+    left: 6px !important;
+    right: auto !important;
+    
+    font-size: 8pt !important;
+    color: #b1b8c4 !important;
+}
+
+#updater.reply.dialog {
+    background: #fff !important;
+    border-color: #e6e8eb !important;
+}
+
+#updater.reply.dialog div {
+    margin: 2px !important;
+}
+
+#updater label {
+    color: #5c6066 !important;
+}
+
+#count.new {
+    background: #b8bfcc !important;
+    color: #fff !important;
+    border-radius: 1px !important;
+    padding: 2px !important;
+    opacity: 0.75 !important;
+}
+
+#stats .move, #updater .move {
+    cursor: default !important;
+}
+
+/* Settings
+================================ */
+#boardNavDesktop a.settingsWindowLink {
+    display: block !important; 
+    position: fixed !important;
+    top: 9px !important;
+    right: 6px !important;
+    
+    font-size: 0 !important;
+    z-index: 1 !important;
+}
+
+#boardNavDesktop a.settingsWindowLink:before {
+    font-size: 9pt !important;
+    content: "Settings";
+    padding: 2px !important;
+    background: #b8bfcc !important;
+    color: #fff !important;
+    border-radius: 2px !important;
+    text-transform: lowercase !important;
+    
+    opacity: 0.75 !important;
+}
+
+#boardNavDesktop a.settingsWindowLink:hover::before {
+    background: #5c6066 !important;
+    transition: all 0.3s ease 0s;
+    opacity: 1 !important;
+}
+
+#options.reply.dialog {
+    border: none !important;
+    background: #fff !important;
+    border-radius: 2px !important;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3) !important;
+}
+
+#options.reply.dialog label {
+    text-decoration: none !important;
+    color: #2e3033 !important;
+}
+
+#optionsbar {
+    color: #b8bfcc !important;
+    border-bottom: 1px solid #e6e8eb !important;
+    padding: 5px !important;
+    margin: -5px !important;
+    border-top-left-radius: 2px !important;
+    border-top-right-radius: 2px !important;
+}
+
+#options.reply.dialog #optionsbar label {
+    color: #5c6066 !important;
+}
+
+#options.reply.dialog .description {
+    color: #5c6066 !important;
+    font-size: 9pt !important;
+}
+
+#content label {
+    font-weight: bold !important;
+    color: #3a4956 !important;
+}
+
+/* Thread watcher
+================================ */
+#watcher {
+    position: fixed !important;
+    top: -100px !important;
+    right: 62px !important;
+    left: auto !important;
+    width: 300px !important;
+        
+    font-size: 9pt !important;
+    background: #5c6066 !important;
+    border-radius: 2px !important;
+    border-top-right-radius: 0 !important;
+    border: none !important;
+}
+    
+#watcher > div {
+    max-width: 300px !important;
+    width: 300px !important;
+    overflow: hidden !important;
+}
+
+#watcher .move {
+    font-size: 0 !important;
+    height: 10px !important;
+    margin-top: -10px !important;
+    cursor: default !important;
+}
+    
+#watcher::before {
+    content: "watcher";
+    position: fixed !important;
+    height: 15px !important;
+    top: 10px !important;
+    right: 62px !important;
+    cursor: pointer !important;
+    
+    background: #b8bfcc !important;
+    color: #fff !important;
+    border-radius: 2px !important;
+    padding: 2px !important;
+    opacity: 0.75 !important;
+}
+
+#watcher:hover::before {
+    background: #5c6066 !important;
+    transition: all 0.3s ease 0s;
+    opacity: 1 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+#watcher:hover {
+    position: fixed !important;
+    top: 24px !important;
+    float: right !important;
+    right: 62px !important;
+    margin-top: 5px !important;
+    cursor: default !important;
+    
+    transition: all 0.3s ease 0s;
+    opacity: 1 !important;
+}
+    
+#watcher a {
+    color: #fff !important;
+    text-decoration: none !important;
+    margin-left: -2px !important;
+}
+    
+#watcher a[href="javascript:;"] {
+    color: #b8bfcc !important;
+}
+    
+#watcher a:hover {
+    color: #e6e8eb !important;
+    transition: all 0.3s ease 0s;
+}
+
+/* Expand images
+================================ */
+#imgControls {
+    font-size: 0 !important;
+    color: transparent !important;
+}
+    
+input[type="checkbox"]#imageExpand, 
+#imageType {
+    display: none !important;
+}
+    
+#imgControls > *::before {
+    position: fixed !important;
+    content: "expand";
+    top: 10px !important;
+    right: 116px !important;
+    z-index: 1 !important;
+    cursor: pointer !important;
+    
+    font-size: 9pt !important;
+    color: #fff !important;
+    background: #b8bfcc !important;
+    padding: 2px !important;
+    border-radius: 2px !important;
+    opacity: 0.75 !important;
+}
+    
+#imgControls > *:hover::before {
+    background: #5c6066 !important;   
+    transition: all 0.3s ease 0s;
+    opacity: 1 !important;
+}
+
+/* Quick previews and inline replies
+================================ */
+.inline .post.reply, #qp .post.reply {
+    margin-top: -10px !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.inline .postContainer, #qp .postContainer {
+    border-top: none !important;
+}
+
+.inline .menu_button {
+    display: none !important;
+}
+
+.inline, #qp {
+    border-color: #e6e8eb !important;
+    border-radius: 2px !important;
+}
+
+#qp {
+    background: #fff !important;
+    margin: 10px !important;
+    padding: 4px !important;
+}
+
+#qp .postMessage {
+    width: 96% !important;
+}
+
+#qp .postContainer.replyContainer.hidden {
+    padding-top: 10px !important;
+}
+
+/* Quick reply
+================================ */
+#qr {
+    color: #fff !important;
+    background: #5c6066 !important;
+    border: none !important;
+    
+    top: 29px !important;
+    bottom: auto !important;
+    right: 9px !important;
+    left: auto !important;
+    border-radius: 2px !important;
+}
+
+#qr form {
+    width: 400px !important;
+    background: #5c6066 !important;
+    padding: 4px !important;
+    border-radius: 2px !important;
+}
+
+#qr .move {
+    background: #b8bfcc !important;
+    border-radius: 2px !important;
+    max-width: 38px !important;
+    min-width: 38px !important;
+    right: 0 !important;
+    
+    text-align: center !important;
+    text-transform: lowercase !important;
+    padding: 2px !important;
+    font-size: 0 !important;
+    cursor: pointer !important;
+    opacity: 0.75 !important;
+    
+    position: fixed !important;
+    top: 10px !important;
+    right: 169px !important;
+}
+
+#qr .move:hover, 
+#qr:hover .move {
+    background: #5c6066 !important;
+    transition: all 0.3s ease 0s;
+    opacity: 1 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+#qr .move:after {
+    content: "reply";
+    font-size: 9pt !important;
+}
+
+#qr .move input[type="checkbox"],
+#qr .move a,
+#qr .move select {
+    display: none !important;
+}
+
+/* QR fields */
+#qr input::-moz-placeholder, 
+#qr textarea::-moz-placeholder {
+    color: #b8bfcc !important;
+    font-size: 9pt !important;
+    text-transform: lowercase !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    opacity: 1 !important;
+}
+
+input[title="Name"].field {
+    border: none !important;
+    border-left: 1px solid #e6e8eb !important;
+    margin-left: 40px !important;
+}
+  
+input[title="Subject"].field {
+    border: none !important;
+    border-left: 1px solid #e6e8eb !important;
+    border-top-right-radius: 2px !important;
+}
+
+input[title="E-mail"].field {
+    border: none !important;
+    border-left: 1px solid #e6e8eb !important;
+}  
+  
+input[title="Name"].field, 
+input[title="E-mail"].field, 
+input[title="Subject"].field {
+    -moz-appearance: none !important;
+    position: relative !important;
+    margin-bottom: 0px !important;
+    height: 26px !important;
+        
+    font-size: 10pt !important;
+    background: #fff !important;
+    color: #3a4956 !important;
+    border-bottom: 1px solid #e6e8eb !important;
+}
+    
+input[title="Dump list"] {
+    -moz-appearance: none !important;
+    color: #ccc !important;
+    font-size: 10pt !important;
+    display: block;
+    height: 26px !important;
+    margin-bottom: -26px !important;
+        
+    background: #fff !important;
+    border: none !important;
+    border-bottom: 1px solid #e6e8eb !important;
+    border-top-left-radius: 2px !important;
+}
+  
+#qr #replies {
+    background: #fff !important;
+    border-bottom: 1px solid #e6e8eb !important;
+}
+  
+#selected .remove {
+    text-shadow: none !important;
+}
+
+form > .textarea > .field {
+    -moz-appearance: none !important;
+    height: 200px !important;
+    max-width: 200px !important;
+    margin-bottom: 0px !important;
+    font-size: 10pt !important;
+        
+    background: #fff !important;
+    color: #3a4956 !important;
+    border: none !important;
+}
+    
+form > div > input[type="submit"] {
+    position: absolute !important;
+    font-size: 9pt !important;
+    float: right !important;
+    width: 70px !important;
+    height: 26px !important;
+    margin-top: -26px !important;
+    margin-left: 50px !important;
+        
+    -moz-appearance: none !important;
+    background: #fff !important;
+    color: #b8bfcc !important;
+    border: none !important;
+    border-left: 1px solid #e6e8eb !important;
+    border-bottom: 1px solid #e6e8eb !important;
+    text-transform: lowercase !important;
+}
+    
+.captchainput .field {
+    -moz-appearance: none !important;
+    margin-top: 0px !important;
+    margin-left: 1px !important;
+    margin-bottom: 0px !important;
+    font-size: 9pt !important;
+    height: 26px !important;
+    border: none !important;
+    background: #fff !important;
+    color: #3a4956 !important;
+}
+    
+/* Lighter captcha */
+#qr .captchaimg {
+    outline: none !important;
+    border: none !important;
+    border-top: 1px solid #e6e8eb !important;
+    border-bottom: 1px solid #e6e8eb !important;
+    margin: 0 auto !important;
+    background: #fff !important;
+}
+    
+.captchaimg img {
+    opacity: 0.6 !important;
+    margin: 0 auto !important;
+}
+  
+form > div > input[type="file"] > * {
+    width: 330px !important;
+    height: 23px !important;
+        
+    -moz-appearance: none;
+    background: #fff !important;
+    color: #3a4956 !important;
+    font-size: 9pt !important;
+    border: none !important;
+    border-top: 1px solid #e6e8eb !important;
+    border-bottom-left-radius: 2px !important;
+}
+    
+form > div > input[type="file"] {
+    margin-top: -1px !important;
+}
+
+form > div > input[type="file"] > input[type="button"] {
+    position: absolute !important;
+    font-size: 9pt !important;
+    float: right;
+    width: 70px !important;
+    height: 26px !important;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    padding-bottom: 1px !important;
+        
+    -moz-appearance: none;
+    background: #fff !important;
+    color: #b8bfcc !important;
+    border: none !important;
+    border-top: 1px solid #e6e8eb !important;
+    border-left: 1px solid #e6e8eb !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 2px !important;
+    text-transform: lowercase !important;
+}
+
+form .captchainput {
+    width: 330px !important;
+    margin-left: -1px !important;
+}
+
+#qr input:hover::-moz-placeholder, 
+#qr textarea:hover::-moz-placeholder, 
+#dump.field:hover,
+form > div > input[type="submit"]:hover,
+form > div > input[type="file"] > input[type="button"]:hover {
+    color: #3a78d4 !important;
+    transition: all 0.3s ease 0s !important;
+}
+
+#qr .warning, #qr #errmsg {
+    color: #fff !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+}
+
+#qr .warning a {
+    color: #fff !important;
+}
+
+#qr .warning a:hover {
+    color: #e6e8eb !important;
+    transition: all 0.3s ease 0s;
+}
+
+/* Spoiler label */
+#qr input[id="spoiler"] {
+    -moz-appearance: none !important;
+    border: none !important;
+    border-radius: 2px !important;
+}
+
+#qr #spoilerLabel {
+    color: #fff !important;
+    text-transform: lowercase !important;
+    margin-left: -4px !important;
+}
+
+/* Page list
+================================ */
+.pagelist {
+    float: none !important;
+    width: 450px !important;
+    margin: 0 auto !important;
+    margin-bottom: -18px !important;
+    
+    font-size: 9pt !important;
+    color: transparent !important;
+    background: transparent !important;
+    border: none !important;
+}
+
+.pages {
+    margin-top: -2px !important;
+}
+
+.pages a {
+    color: #7c818a !important;
+}
+
+.pages strong {
+    color: #121821 !important;
+}
+
+.pages.cataloglink {
+    margin: 0 !important;
+    margin-left: 5px !important;
+    background: #b8bfcc !important;
+    border-radius: 2px !important;
+    opacity: 0.75 !important;
+    border: none !important;
+    text-transform: lowercase !important;
+    padding: 2px !important;
+}
+
+.pagelist .cataloglink a {
+    color: #fff !important;
+    font-size: 9pt !important;
+}
+
+.pagelist .prev input, .pagelist .next input {
+    -moz-appearance: none !important;
+    background: #b8bfcc !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 2px !important;
+    opacity: 0.75 !important;
+    padding: 1px !important;
+    text-transform: lowercase !important;
+    cursor: pointer !important;
+    font-size: 9pt !important;
+}
+
+.pagelist .prev input:hover,
+.pagelist .next input:hover, 
+.pagelist .cataloglink:hover {
+    background: #5c6066 !important;
+    opacity: 1 !important;
+    transition: all 0.3s ease 0s;
+}
+
+}
+
+/* Catalog
+================================ */
+@-moz-document regexp("https://boards\\.4chan\\.org\\/(.|..|...)\\/catalog") {
+/* Cleanup */
+#globalMessage, 
+#toggleMsgBtn, 
+#styleSwitcher, 
+#info,
+#globalToggle,
+#first-run {
+    display: none !important;
+}
+
+body {
+    font-family: Lucida Grande, sans-serif !important;
+    color: #3a4956 !important;
+}
+
+/* Settings */
+#settings {
+    text-transform: lowercase !important;
+    color: #b8bfcc !important;
+    font-size: 9pt !important;
+    float: none !important;
+    text-align: center !important;
+    margin-top: 15px !important;
+}
+
+.btn-wrap {
+    font-size: 0 !important;
+}
+
+.button {
+    font-size: 9pt !important;
+    color: #7c818a !important;
+    text-decoration: none !important;
+}
+
+.button:hover {
+    color: #3a78d4 !important;
+    transition: all 0.3s ease 0s;
+}
+
+#order-ctrl,
+#size-ctrl,
+#teaser-ctrl {
+    -moz-appearance: none !important;
+    background: #b8bfcc !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 2px !important;
+    opacity: 0.75 !important;
+    padding: 1px !important;
+    text-transform: lowercase !important;
+    cursor: pointer !important;
+    font-size: 9pt !important;
+}
+
+/* Search box */
+#qf-box {
+    -moz-appearance: none !important;
+    border: 1px solid #e6e8eb !important;
+    border-radius: 2px !important;
+    background: #fff !important;
+    color: #3a4956 !important;
+}
+
+#qr-clear {
+    font-weight: normal !important;
+}
+
+/* Override the .thread properties for the boards */
+.thread {
+    width: 250px !important;
+    max-height: 410px !important;
+    margin: 5px !important;
+}
+
+.thumb {
+    box-shadow: none !important;
+    border-radius: 1px !important;
+}
+
+.meta {
+    color: #5c6066 !important;
+}
+
+}
