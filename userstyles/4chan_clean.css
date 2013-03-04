@@ -42,7 +42,7 @@ html, body {
     padding: 0 !important;
     background: #fff !important;
     color: #3a4956 !important;
-    font-family: Lucida Grande, sans-serif !important;
+    font-family: "Lucida Grande", sans-serif !important;
     font-size: 10pt !important;
 }
 
@@ -211,12 +211,6 @@ a.useremail {
     text-decoration: line-through !important;
 }
 
-.fileInfo a {
-    color: #7c818a !important;
-    text-decoration: none !important;
-    font-style: italic !important;
-}
-
 .postNum {
     font-size: 9pt !important;
 }
@@ -224,10 +218,7 @@ a.useremail {
 .postNum a[title="Highlight this post"],
 .postNum a[title="Quote this post"],
 .posteruid,
-.inline .postNum a,
-.fileText a,
-.inline .fileInfo a,
-.inline .fileText a {
+.inline .postNum a {
     color: #7c818a !important;
     text-decoration: none !important;
     font-style: normal !important;
@@ -239,11 +230,7 @@ a.useremail {
 .nameBlock > .posteruid > .hand:hover,
 .postNum a[title="Highlight this post"]:hover,
 .postNum a[title="Quote this post"]:hover,
-.inline .postNum a:hover,
-.fileInfo a:hover,
-.fileText a:hover,
-.inline .fileInfo a:hover,
-.inline .fileText a:hover {
+.inline .postNum a:hover {
     color: #3a78d4 !important;
     transition: all 0.3s ease 0s !important;
 }
@@ -276,18 +263,55 @@ a.useremail {
     margin-left: 0px !important;
 } 
 
-/* Hide source links when not hovering over the file info */
-.fileInfo a {
+/* Source links */
+.fileInfo a,
+.inline .fileInfo a,
+.inline .fileText a {
     opacity: 0 !important;
+    text-decoration: none !important;
+    color: #fff !important;
+    background: #cacfd9 !important;
+    border-radius: 2px !important;
+    padding: 2px !important;
+    text-align: center !important;
 }
 
-.fileText a {
-    opacity: 1 !important;
+.fileInfo a:hover,
+.inline .fileInfo a:hover,
+.inline .fileText a:hover {
+    background: #5c6066 !important;
+    transition: all 0.3s ease 0s;
 }
 
-.fileInfo:hover a {
+.fileInfo:hover a,
+.inline .fileInfo a:hover,
+.inline .fileText a:hover  {
     opacity: 1 !important;
     transition: all 0.3s ease 0s;
+}
+
+/* Override source link button theming for filename */
+.fileText a {
+    background: transparent !important;
+    color: #7c818a !important;
+    opacity: 1 !important;
+}
+
+.fileText a:hover {
+    background: transparent !important;
+    color: #3a78d4 !important;
+    transition: all 0.3s ease 0s;
+}
+
+/* Make post buttons appear only when hovering over a post */
+.postContainer:hover .hide_reply_button, 
+.postContainer:hover .menu_button,
+.thread:hover .post.op .menu_button,
+.thread:hover .replylink,
+.thread:hover .favicon,
+.thread:hover .hide_thread_button {
+    opacity: 1 !important;
+    transition: all 0.3s ease 0s !important;
 }
 
 /* Post buttons */
@@ -295,17 +319,26 @@ a.useremail {
     opacity: 0 !important;
     float: right !important;
     font-size: 0;
-    padding-top: 1px !important;
+    background: #cacfd9 !important;
+    border-radius: 2px !important;
+    padding: 2px !important;
+    margin-top: 1px !important;
+    text-align: center !important;
+    width: 40px !important;
 }
 
 .menu_button {
     opacity: 0 !important;
     float: right;
     font-size: 0;
-    margin-right: 35px;
+    margin-right: 55px;
+    background: #cacfd9 !important;
+    border-radius: 2px !important;
+    padding: 2px !important;
+    text-align: center !important;
 }
 
-.hide_reply_button a:after, .hide_thread_button:after {
+.hide_reply_button a:after {
     font-size: 9pt;
     content: "hide";
 }
@@ -315,12 +348,13 @@ a.useremail {
     content: "menu";
 }
 
-.hide_reply_button a, .menu_button, .hide_thread_button {
-    color: #999faa !important;
+.hide_reply_button a, .menu_button {
+    color: #fff !important;
 }
 
-.hide_reply_button a:hover, .menu_button:hover, .hide_thread_button:hover {
-    color: #24a1a1 !important;
+.hide_reply_button:hover, .menu_button:hover {
+    background: #5c6066 !important;
+    opacity: 1 !important;
     transition: all 0.3s ease 0s;
 }
 
@@ -362,38 +396,54 @@ a.useremail {
     content: "hide";
 }
 
+a.hide_thread_button {
+    color: #fff !important;
+}
+
 .hide_thread_button {
     opacity: 0 !important;
     position: absolute !important;
     margin-top: 20px !important;
     font-size: 0 !important;
-    right: 8% !important;
+    right: 171px !important;
+    
+    background: #cacfd9 !important;
+    padding: 2px !important;
+    border-radius: 2px !important;
+    width: 36px !important;
+    text-align: center !important;
 }
 
 .post.op .menu_button {
     opacity: 0 !important;
     position: absolute !important;
     margin-top: -18px !important;
-    right: 8% !important;
+    right: 70px !important;
 }
 
 .replylink {
     opacity: 0 !important;
     position: absolute !important;
     margin-top: -18px !important;
-    right: 8% !important;
-    margin-right: 87px !important;
+    right: 218px !important;
     text-transform: lowercase !important;
     font-size: 9pt !important;
+    
+    background: #cacfd9 !important;
+    padding: 2px !important;
+    border-radius: 2px !important;
+    width: 36px !important;
+    text-align: center !important;
 }
 
 a.replylink {
-    color: #999faa !important;
+    color: #fff !important;
     text-decoration: none !important;
 }
 
-a.replylink:hover {
-    color: #24a1a1 !important;
+a.replylink:hover,
+a.hide_thread_button:hover {
+    background: #5c6066 !important;
     transition: all 0.3s ease 0s;
 }
 
@@ -403,22 +453,10 @@ a.replylink:hover {
 
 .favicon {
     position: absolute !important;
-    right: 8% !important;
-    margin-right: 128px !important;
-    width: 15px !important;
-    margin-top: -18px !important;
+    right: 100px !important;
+    height: 15px !important;
+    margin-top: -16px !important;
     opacity: 0 !important;
-}
-
-/* Make post buttons appear only when hovering over a post */
-.postContainer:hover .hide_reply_button, 
-.postContainer:hover .menu_button,
-.thread:hover .post.op .menu_button,
-.thread:hover .replylink,
-.thread:hover .favicon,
-.thread:hover .hide_thread_button {
-    opacity: 1 !important;
-    transition: all 0.3s ease 0s !important;
 }
 
 /* Thread statistics
@@ -468,6 +506,21 @@ a.replylink:hover {
     border-radius: 2px !important;
     font-size: 9pt !important;
     text-transform: lowercase !important;
+}
+
+#updater input[name="Update Now"] {
+    background: #b8bfcc !important;
+    opacity: 0.75 !important;
+    color: #fff !important;
+    border: none !important;
+    padding: 2px !important;
+    cursor: pointer !important;
+}
+
+#updater input[name="Update Now"]:hover {
+    background: #5c6066 !important;
+    opacity: 1 !important;
+    transition: all 0.3s ease 0s;
 }
 
 #count.new {
@@ -1112,6 +1165,7 @@ form > div > input[type="file"] > input[type="button"]:hover {
 /* Keep inline menu button for proper inline layout, but hide it */
 .inline .postInfo a.menu_button {
     color: transparent !important;
+    background: transparent !important;
     opacity: 1 !important;
     cursor: default !important;
 }
