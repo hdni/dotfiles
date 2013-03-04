@@ -223,6 +223,7 @@ a.useremail {
 
 .postNum a[title="Highlight this post"],
 .postNum a[title="Quote this post"],
+.posteruid,
 .inline .postNum a,
 .fileText a,
 .inline .fileInfo a,
@@ -235,7 +236,7 @@ a.useremail {
 .useremail .name:hover,
 .useremail .postertrip:hover,
 .summary:hover,
-.nameBlock > .poseruid > .hand:hover,
+.nameBlock > .posteruid > .hand:hover,
 .postNum a[title="Highlight this post"]:hover,
 .postNum a[title="Quote this post"]:hover,
 .inline .postNum a:hover,
@@ -319,7 +320,7 @@ a.useremail {
 }
 
 .hide_reply_button a:hover, .menu_button:hover, .hide_thread_button:hover {
-    color: #3a78d4 !important;
+    color: #24a1a1 !important;
     transition: all 0.3s ease 0s;
 }
 
@@ -336,7 +337,7 @@ a.useremail {
 }
 
 #menu .entry:hover {
-    color: #3a78d4 !important;
+    color: #24a1a1 !important;
     transition: all 0.3s ease 0s;
 }
 
@@ -392,7 +393,7 @@ a.replylink {
 }
 
 a.replylink:hover {
-    color: #3a78d4 !important;
+    color: #24a1a1 !important;
     transition: all 0.3s ease 0s;
 }
 
@@ -778,7 +779,7 @@ input[type="checkbox"]#imageExpand,
 }
 
 #globalMessage a:hover {
-    color: #3a78d4 !important;
+    color: #fff !important;
     transition: all 0.3s ease 0.2s !important;
 }
 
@@ -1050,7 +1051,7 @@ form .captchainput {
 #dump.field:hover,
 form > div > input[type="submit"]:hover,
 form > div > input[type="file"] > input[type="button"]:hover {
-    color: #3a78d4 !important;
+    color: #24a1a1 !important;
     transition: all 0.3s ease 0s !important;
 }
 
