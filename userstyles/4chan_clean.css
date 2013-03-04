@@ -324,14 +324,14 @@ a.useremail {
     padding: 2px !important;
     margin-top: 1px !important;
     text-align: center !important;
-    width: 40px !important;
+    width: 36px !important;
 }
 
 .menu_button {
     opacity: 0 !important;
     float: right;
     font-size: 0;
-    margin-right: 55px;
+    margin-right: 52px;
     background: #cacfd9 !important;
     border-radius: 2px !important;
     padding: 2px !important;
