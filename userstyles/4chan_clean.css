@@ -554,7 +554,7 @@ a.hide_thread_button:hover {
     padding: 2px !important;
     border-top-right-radius: 0 !important;
     border: none !important;
-    z-index: 3 !important;
+    z-index: 0 !important;
 }
 
 #boardNavDesktop a {
@@ -694,7 +694,7 @@ a.hide_thread_button:hover {
     border-radius: 2px !important;
     border-top-right-radius: 0 !important;
     border: none !important;
-    z-index: 2 !important;
+    z-index: 0 !important;
 }
     
 #watcher > div {
@@ -779,7 +779,7 @@ input[type="checkbox"]#imageExpand,
     content: "expand";
     top: 62px !important;
     right: 10px !important;
-    z-index: 3 !important;
+    z-index: 0 !important;
     cursor: pointer !important;
     width: 50px !important;
     
@@ -814,7 +814,7 @@ input[type="checkbox"]#imageExpand,
     color: #fff !important;
     border-radius: 2px !important;
     border-top-right-radius: 0 !important;
-    z-index: 2 !important;
+    z-index: 0 !important;
 }
 
 #globalMessage * {
@@ -882,7 +882,7 @@ input[type="checkbox"]#imageExpand,
     overflow: hidden !important;
     left: auto !important;
     border-radius: 2px !important;
-    z-index: 3 !important;
+    z-index: 0 !important;
 }
 
 #qr:hover {
@@ -1152,6 +1152,19 @@ form > div > input[type="file"] > input[type="button"]:hover {
     background: #fff !important;
     border-color: #e6e8eb !important;
     border-radius: 2px !important;
+}
+
+#qp {
+    margin-right: 70px !important;
+}
+
+.inline {
+    margin-right: 10px !important;
+}
+    
+.inline .postMessage,
+#qp .postMessage {
+    width: 94% !important;
 }
 
 /* Keep inline menu button for proper inline layout, but hide it */
