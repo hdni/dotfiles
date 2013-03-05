@@ -291,13 +291,15 @@ a.useremail {
 }
 
 /* Override source link button theming for filename */
-.fileText a {
+.fileText a,
+.inline .fileText a {
     background: transparent !important;
     color: #7c818a !important;
     opacity: 1 !important;
 }
 
-.fileText a:hover {
+.fileText a:hover,
+.inline .fileText a:hover {
     background: transparent !important;
     color: #3a78d4 !important;
     transition: all 0.3s ease 0s;
@@ -1140,8 +1142,6 @@ form > div > input[type="file"] > input[type="button"]:hover {
 ================================ */
 .inline .post.reply, #qp .post.reply {
     margin-top: -10px !important;
-    width: 100% !important;
-    height: 100% !important;
 }
 
 .inline .postContainer, #qp .postContainer {
@@ -1152,15 +1152,7 @@ form > div > input[type="file"] > input[type="button"]:hover {
     background: #fff !important;
     border-color: #e6e8eb !important;
     border-radius: 2px !important;
-    max-width: 80% !important;
-    margin: 10px !important;
-    padding: 4px !important;
 }
-
-.inline .postMessage, #qp .postMessage {
-    width: 95% !important;
-}
-
 
 /* Keep inline menu button for proper inline layout, but hide it */
 .inline .postInfo a.menu_button {
@@ -1168,15 +1160,6 @@ form > div > input[type="file"] > input[type="button"]:hover {
     background: transparent !important;
     opacity: 1 !important;
     cursor: default !important;
-}
-
-#qp .postContainer, .inline .postContainer {
-    margin-top: 0px !important;
-}
-
-#qp .postInfo, .inline .postInfo {
-    width: 100% !important;
-    display: block !important;
 }
 
 #qp .postContainer.replyContainer.hidden, 
