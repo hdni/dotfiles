@@ -26,5 +26,4 @@ Installation
 ------------
 * You can use Stylish or the userChrome.css file for this, it will not affect the result.
 * You will need to install FXChrome, and optionally the Movable Firefox Button and Favicon Restorer addons. 
-* You will need to download the assets archive, extract it to a location of your choice, and modify the CSS to change the links that refer to the location of my own assets folder. These start with "file://".
 * In order for the gradient to look right, you'll have to set the tabs on the bottom. This can be done either by right-clicking on the tab bar and disabling "Tabs on top". Depending on your version of Firefox, you might not have that menu; in that case, go in about:config and set browser.tabs.onTop to false.

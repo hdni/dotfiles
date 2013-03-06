@@ -133,7 +133,7 @@
 
 .tabs-newtab-button {
     -moz-margin-start: 0px !important;
-    list-style-image: url("file:///home/will/.mozilla/firefox/3z2gw6je.clean/chrome/assets/new-tab.png")!important;
+    list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAYAAACAyoQSAAAABmJLR0QAwgDCAMKN1+F2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QEIFxobuYEizAAAAGBJREFUSMdjYBgFo2AUDHbASI6mbdu2/Yexvby8SDaDhRxLeXh4KPIp00AEL9OgjVPkOEQP3i9fvqCoJSaOWSiNQ3Lil2nIZJlDhw7Bg9vOzo5xNPUOKktHwSgYBYMfAADjMQ+EiH0WdgAAAABJRU5ErkJggg==)!important;
     -moz-image-region: rect(0px, 29px, 27px, 0px)!important;
     width: 29px !important;
     height: 29px !important;
@@ -146,7 +146,7 @@
 }
 
 .tabs-newtab-button:hover {
-    list-style-image: url("file:///home/will/.mozilla/firefox/3z2gw6je.clean/chrome/assets/new-tab-hover.png")!important;
+    list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAYAAACAyoQSAAAABmJLR0QAwgDCAMKN1+F2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QEIFxonlu5eSwAAAF9JREFUSMdjYBgFo2AUDHbASI6mvLy8/zD2pEmTSDaDhRxLOTg4KPIp00AEL9OgjVPkOEQP3h8/fqCoJSaOWSiNQ3Lil2nIZJmysjJ4cHd1dTGOpt5BZekoGAWjYPADALPCD2CJ3ddJAAAAAElFTkSuQmCC)!important;
     -moz-image-region: rect(0px, 29px, 27px, 0px)!important;
     background: -moz-linear-gradient(#f8f8f8,#eaeaea) !important;
     box-shadow: 0px 1px 3px rgba(0,0,0,0.17) !important;
@@ -238,23 +238,23 @@
 
 /* Icon replacements */
 #back-button .toolbarbutton-icon {
-    list-style-image: url("file:///home/will/.mozilla/firefox/3z2gw6je.clean/chrome/assets/back-button.png") !important;
+    list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAcCAYAAACdz7SqAAAABmJLR0QAoQChAKHNb6lwAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QEJAA85+oFXrAAAAHNJREFUSMft1LsNgDAMRdHnLOARvZM38KRQIUVAEX+SyrcGHXA+QNd1J1PVy/sOZUFmBgCICG1HZ/BpFabTYAjNgm60AnShVSAAjNUH32Am15ea2edMbh1vJRxakyw8Iugf4LkOU9fg/MfRnYyqUXddV9oNOPMxpmiIFxoAAAAASUVORK5CYII=) !important;
     -moz-image-region: rect(0px, 29px, 27px, 0px)!important;
 }
 
 #back-button:hover .toolbarbutton-icon {
-    list-style-image: url("file:///home/will/.mozilla/firefox/3z2gw6je.clean/chrome/assets/back-button-hover.png") !important;
+    list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAcCAYAAACdz7SqAAAABmJLR0QAoQChAKHNb6lwAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QEJABcdRJkrJAAAAHNJREFUSMft1DkOwCAMRNExHUek9cHcckxSRYoIBV6g8q9BD7EBWZbdrLU2tHPIC9ZaAQAiQsfRL/i2C9Nt0IR6QTUaAarQKBAAyu7AGfSkWikz/97k0e2NhE1n4oWLBV0Bmu+wWC/DDPfeCbdabXWWZaE9NLYwEAEBBL0AAAAASUVORK5CYII=) !important;
     -moz-image-region: rect(0px, 29px, 27px, 0px)!important;
     transition: all 0.2s ease 0s;
 }
 
 #forward-button .toolbarbutton-icon {
-    list-style-image: url("file:///home/will/.mozilla/firefox/3z2gw6je.clean/chrome/assets/forward-button.png") !important;
+    list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAcCAYAAACdz7SqAAAABmJLR0QAoQChAKHNb6lwAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QEJABM1FUBG2gAAAHNJREFUSMftlLERACEIBM9vwBLpgGLowBKpQCOzT+DUiI3VHeAQKIriJmY22Tda5PAYYwKAu0NV23XpFm4YcapSVhy+cEKcag8rToeBEX+nVqn3/ra9ACAi7VmQokJ6ZTLC0Ez/vr+MkKo0K8SpEBVFcZUF2adDplNsJKcAAAAASUVORK5CYII=) !important;
     -moz-image-region: rect(0px, 29px, 27px, 0px)!important;
 }
 
 #forward-button:hover .toolbarbutton-icon {
-    list-style-image: url("file:///home/will/.mozilla/firefox/3z2gw6je.clean/chrome/assets/forward-button-hover.png") !important;
+    list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAcCAYAAACdz7SqAAAABmJLR0QAoQChAKHNb6lwAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QEJABcS1CY2tQAAAHRJREFUSMftlCsWACEIRR/TWKKVhVlZItFJljlT+GjiZvQe8QHQNM1Jxhgrewd5ikVkAYCZQVXpuHQLNxlx6KVZsftAhTjUnqw4HIaM+KkaJWa+214AmHPStSB5hemRiQhdf/q3/iJCl/SbzKgQVSFqmuYoL6SiQhCpx5SsAAAAAElFTkSuQmCC) !important;
     -moz-image-region: rect(0px, 29px, 27px, 0px)!important;
     transition: all 0.2s ease 0s;
 }
@@ -299,6 +299,7 @@ and make Firefox tabs close properly even though max-width is overridden*/
 	@see chrome://browser/skin/devtools/floating-scrollbars.css (Fx 18+)
 	@see http://userstyles.org/styles/76999/glow-scrollbar
 */
+
 scrollbar scrollbarbutton ,
 scrollbar gripper {
 	visibility: collapse;
