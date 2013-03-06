@@ -452,7 +452,7 @@ style "murrine-radiocheck-menu" {
 }
 
 style "murrine-toolbar" = "murrine-thin" {
-	bg[NORMAL] = shade (0.85, @bg_color)
+	bg[NORMAL] = "#f4f4f4"
 }
 
 style "pixmap-sidebar-handle-left" {
