@@ -245,7 +245,7 @@ a.useremail {
 }
     
 .backlink:after {
-    content: url('http://i.imgur.com/S16zbNg.png') !important;
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAB3RJTUUH3QEbFh0G1qhKlAAAAMJJREFUGNNdjjFqAmEYRN/sanCjoMkBLAOCtZewEHKFeAEbEQxkRZBYqI2QC1gtqXIAD2GTxoCEBKs0ERbU3/1SuGJwuhneDAOpoijyH3vDBy7kAYRhmFu8ryZC9UtArdY4yJfcCKgBO4wPZAdJcz+JZ5nr4n4AqqWFK0QFhBnVgxcUPPmaYvz8W40x+wacJWro+OG57NCLpG3/qX1/zEZ3DtdPT3Y+k6xrGnydhzZLE2/eyQ663XXG4s4ZuC383gSvf/KcPkhRDAYHAAAAAElFTkSuQmCC) !important;
     font-size: 9pt !important;
     margin-right: 4px !important;
 }
