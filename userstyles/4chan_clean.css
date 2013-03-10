@@ -748,7 +748,7 @@ a.hide_thread_button:hover {
 }
     
 #watcher a {
-    color: #fff !important;
+    color: #e6e8eb !important;
     text-decoration: none !important;
     margin-left: -2px !important;
 }
@@ -758,7 +758,7 @@ a.hide_thread_button:hover {
 }
     
 #watcher a:hover {
-    color: #e6e8eb !important;
+    color: #fff !important;
     transition: all 0.3s ease 0s;
 }
 
