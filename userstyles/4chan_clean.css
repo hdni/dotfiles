@@ -47,7 +47,7 @@ html, body {
 }
 
 /* Hide ugly outline on clicked elements */
-*:active, *:focus {
+a:active, a:focus {
     outline: none !important;
 }
 
