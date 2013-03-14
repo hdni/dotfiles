@@ -808,7 +808,7 @@ input[type="checkbox"]#imageExpand,
     text-align: left !important;
     margin: 0 auto !important;
     font-size: 9pt !important;
-    padding: 0 !important;
+    padding: 4px !important;
     
     background: #32baba !important;
     color: #fff !important;
@@ -825,7 +825,6 @@ input[type="checkbox"]#imageExpand,
 #globalMessage h3 {
     font-weight: normal !important;
     margin: 0 !important;
-    padding: 4px !important;
 }
 
 #globalMessage a {
