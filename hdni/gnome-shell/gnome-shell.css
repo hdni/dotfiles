@@ -618,7 +618,7 @@ StButton.popup-menu-item:insensitive {
 .panel-corner {
     -panel-corner-radius: 2px;
     -panel-corner-background-color: rgba(0,0,0,0.85);
-    -panel-corner-border-width: 2px;
+    -panel-corner-border-width: 0px;
     -panel-corner-border-color: transparent;
 }
 
