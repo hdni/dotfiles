@@ -8,7 +8,7 @@ endif
 let g:colors_name = "custom"
 hi Normal		ctermfg=none			ctermbg=none
 hi NonText		ctermfg=8
-hi comment		ctermfg=8		ctermbg=none
+hi comment		ctermfg=8				ctermbg=none
 hi constant		ctermfg=cyan
 hi identifier	ctermfg=yellow
 hi statement	ctermfg=blue			ctermbg=none
