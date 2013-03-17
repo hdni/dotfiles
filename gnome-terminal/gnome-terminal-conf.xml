@@ -432,7 +432,7 @@
       <key>profiles/Default/scroll_on_keystroke</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/scroll_on_keystroke</schema_key>
       <value>
-        <bool>true</bool>
+        <bool>false</bool>
       </value>
     </entry>
     <entry>
