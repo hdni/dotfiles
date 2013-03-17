@@ -7,8 +7,8 @@ if exists("syntax_on")
 endif
 let g:colors_name = "custom"
 hi Normal		ctermfg=none			ctermbg=none
-hi NonText		ctermfg=darkGrey
-hi comment		ctermfg=darkGrey		ctermbg=none
+hi NonText		ctermfg=8
+hi comment		ctermfg=8		ctermbg=none
 hi constant		ctermfg=cyan
 hi identifier	ctermfg=yellow
 hi statement	ctermfg=blue			ctermbg=none
@@ -26,10 +26,10 @@ hi MoreMsg		ctermfg=none
 hi Error		ctermfg=red ctermbg=darkred
 
 hi Todo			ctermfg=black	ctermbg=white
-hi Cursor		ctermfg=black	ctermbg=darkgrey
+hi Cursor		ctermfg=black	ctermbg=8
 hi Search		ctermfg=black	ctermbg=white
 hi IncSearch	ctermfg=black	ctermbg=white
-hi LineNr		ctermfg=darkGrey 	ctermbg=black
+hi LineNr		ctermfg=8 	ctermbg=black
 hi title		cterm=bold
 
 "hi StatusLineNC	gui=NONE	guifg=black guibg=blue	ctermfg=black  ctermbg=blue
