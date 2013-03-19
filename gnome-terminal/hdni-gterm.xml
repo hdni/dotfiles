@@ -36,6 +36,9 @@
             <value>
               <string>Default</string>
             </value>
+            <value>
+              <string>Profile0</string>
+            </value>
         </list>
       </value>
     </entry>
@@ -278,14 +281,14 @@
       <key>profiles/Default/background_color</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/background_color</schema_key>
       <value>
-        <string>#262629282E2E</string>
+        <string>#26262B2B2E2E</string>
       </value>
     </entry>
     <entry>
       <key>profiles/Default/background_darkness</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/background_darkness</schema_key>
       <value>
-        <float>0.97192199999999995</float>
+        <float>0.974082</float>
       </value>
     </entry>
     <entry>
@@ -418,7 +421,7 @@
       <key>profiles/Default/palette</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/palette</schema_key>
       <value>
-        <string>#242426262929:#FFFF44434443:#9999CCCC0000:#FFFFBBBA3332:#3333B5B5E5E5:#AAA96666CCCC:#0000CCCCAAA9:#DADADFDFE6E6:#3E3E45454D4D:#FFFF66666666:#BBBBEEEE5555:#FFFFCCCC6666:#7777CCCCFFFF:#C8C78F8FE6E6:#4444EEEECCCB:#F2F2F8F8FFFF</string>
+        <string>#212126252929:#FDFD84848787:#7575D7D77070:#E6E6C9C97C7C:#62629797B3B3:#70707575BFBF:#5C5CB0B0A7A7:#DADADFDFE6E6:#383842424747:#FEFEA3A3A5A4:#9B9BEBEB9696:#FFFFE7E7A3A3:#8F8FBFBFD9D9:#9A9A9F9FDFDF:#8A8AD8D8CFCE:#F2F2F8F8FFFF</string>
       </value>
     </entry>
     <entry>
@@ -523,7 +526,7 @@
       <key>profiles/Default/visible_name</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/visible_name</schema_key>
       <value>
-        <string>hdni</string>
+        <string>night</string>
       </value>
     </entry>
     <entry>
@@ -531,6 +534,236 @@
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/word_chars</schema_key>
       <value>
         <string>-A-Za-z0-9,./?%&amp;#:_=+@~</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/allow_bold</key>
+      <value>
+        <bool>false</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/background_color</key>
+      <value>
+        <string>#26262B2B2E2E</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/background_darkness</key>
+      <value>
+        <float>0.974082</float>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/background_image</key>
+      <value>
+        <string></string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/background_type</key>
+      <value>
+        <string>transparent</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/backspace_binding</key>
+      <value>
+        <string>ascii-del</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/bold_color</key>
+      <value>
+        <string>#BCBCBDBDBFBF</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/bold_color_same_as_fg</key>
+      <value>
+        <bool>true</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/cursor_blink_mode</key>
+      <value>
+        <string>system</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/cursor_shape</key>
+      <value>
+        <string>block</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/custom_command</key>
+      <value>
+        <string></string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/default_show_menubar</key>
+      <value>
+        <bool>false</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/default_size_columns</key>
+      <value>
+        <int>80</int>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/default_size_rows</key>
+      <value>
+        <int>24</int>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/delete_binding</key>
+      <value>
+        <string>escape-sequence</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/exit_action</key>
+      <value>
+        <string>close</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/font</key>
+      <value>
+        <string>Tewi 9</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/foreground_color</key>
+      <value>
+        <string>#A3A3A8A8B0B0</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/login_shell</key>
+      <value>
+        <bool>false</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/palette</key>
+      <value>
+        <string>#212126252929:#FDFD84848787:#7575D7D77070:#E6E6C9C97C7C:#62629797B3B3:#70707575BFBF:#5C5CB0B0A7A7:#DADADFDFE6E6:#383842424747:#FEFEA3A3A5A4:#9B9BEBEB9696:#FFFFE7E7A3A3:#8F8FBFBFD9D9:#9A9A9F9FDFDF:#8A8AD8D8CFCE:#F2F2F8F8FFFF</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/scroll_background</key>
+      <value>
+        <bool>true</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/scroll_on_keystroke</key>
+      <value>
+        <bool>false</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/scroll_on_output</key>
+      <value>
+        <bool>true</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/scrollback_lines</key>
+      <value>
+        <int>1000</int>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/scrollback_unlimited</key>
+      <value>
+        <bool>false</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/scrollbar_position</key>
+      <value>
+        <string>hidden</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/silent_bell</key>
+      <value>
+        <bool>true</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/title</key>
+      <value>
+        <string>Terminal</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/title_mode</key>
+      <value>
+        <string>replace</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/update_records</key>
+      <value>
+        <bool>true</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/use_custom_command</key>
+      <value>
+        <bool>false</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/use_custom_default_size</key>
+      <value>
+        <bool>false</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/use_system_font</key>
+      <value>
+        <bool>false</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/use_theme_colors</key>
+      <value>
+        <bool>false</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/visible_name</key>
+      <value>
+        <string>android</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/word_chars</key>
+      <value>
+        <string>-A-Za-z0-9,./?%&amp;#:_=+@~</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile0/palette</key>
+      <schema_key>/schemas/apps/gnome-terminal/profiles/Default/palette</schema_key>
+      <value>
+        <string>#242426262929:#FFFF44434443:#9999CCCC0000:#FFFFBBBA3332:#3333B5B5E5E5:#AAA96666CCCC:#0000CCCCAAA9:#DADADFDFE6E6:#3E3E45454D4D:#FFFF66666666:#BBBBEEEE5555:#FFFFCCCC6666:#7777CCCCFFFF:#C8C78F8FE6E6:#4444EEEECCCB:#F2F2F8F8FFFF</string>
+      </value>
+	</entry>
+	<entry>
+      <key>profiles/Profile0/background_color</key>
+      <schema_key>/schemas/apps/gnome-terminal/profiles/Default/background_color</schema_key>
+      <value>
+        <string>#262629282E2E</string>
       </value>
     </entry>
   </entrylist>
