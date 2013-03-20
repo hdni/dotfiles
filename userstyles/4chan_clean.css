@@ -1155,16 +1155,9 @@ form > div > input[type="file"] > input[type="button"]:hover {
     border-top: none !important;
 }
 
-.inline {
-    width: 98% !important;
-    padding: 2px !important;
-    margin: 0 auto !important;
-    margin-left: 1% !important;
-    margin-right: 1% !important;
-    margin-top: 5px !important;
-}
-
 .inline, #qp {
+    padding: 4px !Important;
+
     background: #fff !important;
     border-color: #e6e8eb !important;
     border-radius: 2px !important;
@@ -1173,14 +1166,11 @@ form > div > input[type="file"] > input[type="button"]:hover {
 #qp {
     margin-right: 70px !important;
 }
-
-.inline {
-    margin-right: 10px !important;
-}
     
 .inline .postMessage,
 #qp .postMessage {
-    width: 94% !important;
+    width: 100% !important;
+    margin-right: 0 !important;
 }
 
 /* Keep menu button transparent for inline posts */
