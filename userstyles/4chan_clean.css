@@ -1119,7 +1119,7 @@ form > div > input[type="file"] > input[type="button"]:hover {
 
 #qr .warning, #qr #errmsg {
     color: #fff !important;
-    text-transform: uppercase !important;
+    text-transform: lowercase !important;
     text-align: center !important;
 }
 
