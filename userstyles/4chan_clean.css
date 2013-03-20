@@ -1155,6 +1155,15 @@ form > div > input[type="file"] > input[type="button"]:hover {
     border-top: none !important;
 }
 
+.inline {
+    width: 98% !important;
+    padding: 2px !important;
+    margin: 0 auto !important;
+    margin-left: 1% !important;
+    margin-right: 1% !important;
+    margin-top: 5px !important;
+}
+
 .inline, #qp {
     background: #fff !important;
     border-color: #e6e8eb !important;
@@ -1174,7 +1183,7 @@ form > div > input[type="file"] > input[type="button"]:hover {
     width: 94% !important;
 }
 
-/* Keep inline menu button for proper inline layout, but hide it */
+/* Keep menu button transparent for inline posts */
 .inline .postInfo a.menu_button {
     color: transparent !important;
     background: transparent !important;
