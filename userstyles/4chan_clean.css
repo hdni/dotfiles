@@ -1169,7 +1169,7 @@ form > div > input[type="file"] > input[type="button"]:hover {
     
 .inline .postMessage,
 #qp .postMessage {
-    width: 100% !important;
+    width: 98% !important;
     margin-right: 0 !important;
 }
 
