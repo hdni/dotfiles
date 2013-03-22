@@ -836,8 +836,9 @@ input[type="checkbox"]#imageExpand,
 }
 
 #globalMessage a {
-    color: #ebf0f0 !important;
+    color: #fff !important;
     text-decoration: none !important;
+	border-bottom: 1px dotted #ebf0f0 !important;
 }
 
 #globalMessage a:hover {
