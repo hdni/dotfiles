@@ -43,8 +43,12 @@ html, body {
     padding: 0 !important;
     background: #fff !important;
     color: #3a4956 !important;
-    font-family: "Lucida Grande", sans-serif !important;
-    font-size: 10pt !important;
+    font-family: "Helvetica Neue", sans-serif !important;
+    font-size: 13px !important;
+}
+
+form, input, .field {
+    font-family: "Helvetica Neue", sans-serif !important;
 }
 
 /* Hide ugly outline on clicked elements */
@@ -91,7 +95,7 @@ a:active, a:focus {
 }
 
 .thread .postContainer.opContainer {
-    border-top: 1px solid #cacfd9 !important;
+    border-top: 1px solid #d1d5de !important;
 }
 
 .postMessage {
@@ -101,16 +105,19 @@ a:active, a:focus {
     margin-top: 10px;
     margin-bottom: 10px;
     width: 98%;
+    
+    line-height: 21px !important;
 }
 
 .fileThumb, .fileInfo {
     margin-left: 0 !important;
-    font-size: 9pt !important;
+    font-size: 12px !important;
 }
 
 .fileInfo {
     margin-top: 4px !important;
     margin-bottom: 4px !important;
+    margin-left: -2px !important;
 }
 
 .fileThumb img {
@@ -125,7 +132,7 @@ a:active, a:focus {
         
     margin-bottom: -6px !important;
     margin-top: 1px !important;
-    font-size: 9pt !important;
+    font-size: 12px !important;
     padding-bottom: 2px !important;
     padding-top: 4px !important;
 }
@@ -178,23 +185,23 @@ a.useremail {
 .fileText,
 .nameBlock > .poseruid {
     color: #999faa !important;
-    font-size: 9pt !important;
+    font-size: 12px !important;
 }
 
 .postMessage a,
 #credits a {
-    color: #3a78d4 !important;
+    color: #367dc4 !important;
     text-decoration: none !important;
 }
 
 .postMessage a:hover,
 #credits a:hover {
-    color: #254d87 !important;
+    color: #245585 !important;
     transition: all 0.3s ease 0s;
 }
 
 .quote {
-    color: #28915d !important;
+    color: #289191 !important;
 }
 
 .subject {
@@ -204,7 +211,7 @@ a.useremail {
 
 .summary, .abbr {
     color: #999faa !important;
-    font-size: 9pt !important;
+    font-size: 12px !important;
 }
 
 .nameBlock strong {
@@ -217,7 +224,7 @@ a.useremail {
 }
 
 .postNum {
-    font-size: 9pt !important;
+    font-size: 12px !important;
 }
 
 .postNum a[title="Highlight this post"],
@@ -236,7 +243,7 @@ a.useremail {
 .postNum a[title="Highlight this post"]:hover,
 .postNum a[title="Quote this post"]:hover,
 .inline .postNum a:hover {
-    color: #3a78d4 !important;
+    color: #367dc4 !important;
     transition: all 0.3s ease 0s !important;
 }
 
@@ -251,7 +258,7 @@ a.useremail {
     
 .backlink:after {
     content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAB3RJTUUH3QEbFh0G1qhKlAAAAMJJREFUGNNdjjFqAmEYRN/sanCjoMkBLAOCtZewEHKFeAEbEQxkRZBYqI2QC1gtqXIAD2GTxoCEBKs0ERbU3/1SuGJwuhneDAOpoijyH3vDBy7kAYRhmFu8ryZC9UtArdY4yJfcCKgBO4wPZAdJcz+JZ5nr4n4AqqWFK0QFhBnVgxcUPPmaYvz8W40x+wacJWro+OG57NCLpG3/qX1/zEZ3DtdPT3Y+k6xrGnydhzZLE2/eyQ663XXG4s4ZuC383gSvf/KcPkhRDAYHAAAAAElFTkSuQmCC) !important;
-    font-size: 9pt !important;
+    font-size: 12px !important;
     margin-right: 4px !important;
 }
     
@@ -261,7 +268,7 @@ a.useremail {
 }
     
 .backlink.filtered:after {
-    opacity: 0.55 !important;
+    opacity: 0.75 !important;
 }
     
 .post.op .backlink:first-child {
@@ -275,7 +282,7 @@ a.useremail {
     opacity: 0 !important;
     text-decoration: none !important;
     color: #fff !important;
-    background: #cacfd9 !important;
+    background: #d1d5de !important;
     border-radius: 2px !important;
     padding: 2px !important;
     text-align: center !important;
@@ -306,7 +313,7 @@ a.useremail {
 .fileText a:hover,
 .inline .fileText a:hover {
     background: transparent !important;
-    color: #3a78d4 !important;
+    color: #367dc4 !important;
     transition: all 0.3s ease 0s;
 }
 
@@ -326,7 +333,7 @@ a.useremail {
     opacity: 0 !important;
     float: right !important;
     font-size: 0;
-    background: #cacfd9 !important;
+    background: #d1d5de !important;
     border-radius: 2px !important;
     padding: 2px !important;
     margin-top: 1px !important;
@@ -339,19 +346,19 @@ a.useremail {
     float: right;
     font-size: 0;
     margin-right: 52px;
-    background: #cacfd9 !important;
+    background: #d1d5de !important;
     border-radius: 2px !important;
     padding: 2px !important;
     text-align: center !important;
 }
 
 .hide_reply_button a:after {
-    font-size: 9pt;
+    font-size: 12px;
     content: "hide";
 }
 
 .menu_button:after {
-    font-size: 9pt;
+    font-size: 12px;
     content: "menu";
 }
 
@@ -373,7 +380,7 @@ a.useremail {
 #menu, #menu .entry, .subMenu {
     background: #fff !important;
     color: #999faa !important;
-    font-size: 9pt !important;
+    font-size: 12px !important;
     border-color: #e6e8eb !important;
 }
 
@@ -399,7 +406,7 @@ a.useremail {
 
 /* OP buttons */
 .hide_thread_button:after {
-    font-size: 9pt;
+    font-size: 12px;
     content: "hide";
 }
 
@@ -414,7 +421,7 @@ a.hide_thread_button {
     font-size: 0 !important;
     right: 171px !important;
     
-    background: #cacfd9 !important;
+    background: #d1d5de !important;
     padding: 2px !important;
     border-radius: 2px !important;
     width: 36px !important;
@@ -434,9 +441,9 @@ a.hide_thread_button {
     margin-top: -18px !important;
     right: 218px !important;
     text-transform: lowercase !important;
-    font-size: 9pt !important;
+    font-size: 12px !important;
     
-    background: #cacfd9 !important;
+    background: #d1d5de !important;
     padding: 2px !important;
     border-radius: 2px !important;
     width: 36px !important;
@@ -474,9 +481,9 @@ a.hide_thread_button:hover {
 #stats {
     position: fixed !important;
     top: auto !important;
-    right: auto !important;
+    right: 6px !important;
     bottom: 6px !important;
-    left: 6px !important;
+    left: auto !important;
     
     font-size: 8pt !important;
     color: #b1b8c4 !important;
@@ -486,8 +493,8 @@ a.hide_thread_button:hover {
 #updater {
     position: fixed !important;
     bottom: 20px !important;
-    left: 6px !important;
-    right: auto !important;
+    left: auto !important;
+    right: 6px !important;
     
     font-size: 8pt !important;
     color: #b1b8c4 !important;
@@ -506,6 +513,7 @@ a.hide_thread_button:hover {
 
 #updater label {
     color: #5c6066 !important;
+    margin: 4px !important;
 }
 
 #updater input {
@@ -514,13 +522,13 @@ a.hide_thread_button:hover {
     color: #5c6066 !important;
     background: #fff !important;
     border-radius: 2px !important;
-    font-size: 9pt !important;
+    font-size: 12px !important;
     text-transform: lowercase !important;
 }
 
 #updater input[name="Update Now"] {
     background: #b8bfcc !important;
-    opacity: 0.75 !important;
+    opacity: 0.65 !important;
     color: #fff !important;
     border: none !important;
     padding: 2px !important;
@@ -538,7 +546,7 @@ a.hide_thread_button:hover {
     color: #fff !important;
     border-radius: 1px !important;
     padding: 2px !important;
-    opacity: 0.75 !important;
+    opacity: 0.65 !important;
 }
 
 #stats .move, #updater .move {
@@ -566,9 +574,9 @@ a.hide_thread_button:hover {
 }
 
 #boardNavDesktop a {
-    font-size: 9pt !important;
+    font-size: 14px !important;
     color: #ebf0f0 !important;
-    margin: 2px !important;
+    margin: 3px !important;
     
     display: none !important;
 }
@@ -579,9 +587,9 @@ a.hide_thread_button:hover {
 }
 
 #boardNavDesktop a.settingsWindowLink:before {
-    font-size: 9pt !important;
+    font-size: 14px !important;
     content: "settings";
-    margin-right: -4px !important;
+    margin-right: 0px !important;
 }
 
 #boardNavDesktop a:before, #boardNavDesktop a:after {
@@ -609,19 +617,19 @@ a.hide_thread_button:hover {
 #boardNavDesktop::before {
     content: "links";
     position: fixed !important;
-    height: 15px !important;
+    height: 14px !important;
     top: 10px !important;
     right: 10px !important;
     cursor: pointer !important;
     width: 50px !important;
     
     background: #b8bfcc !important;
-    font-size: 9pt !important;
+    font-size: 12px !important;
     color: #fff !important;
     padding: 2px !important;
     border-radius: 2px !important;
     text-align: center !important;
-    opacity: 0.75 !important;
+    opacity: 0.65 !important;
 }
 
 #boardNavDesktop:hover::before {
@@ -640,7 +648,8 @@ a.hide_thread_button:hover {
     margin-top: 5px !important;
     cursor: default !important;
     border-top-right-radius: 0 !important;
-    border-bottom-right-radius: 0 !important;
+    border-bottom-right-radius: 2px !important;
+    height: 18px !important;
     
     transition: all 0.3s ease 0s;
     opacity: 1 !important;
@@ -675,7 +684,7 @@ a.hide_thread_button:hover {
 
 #options.reply.dialog .description {
     color: #5c6066 !important;
-    font-size: 9pt !important;
+    font-size: 12px !important;
 }
 
 #options.reply.dialog #content label {
@@ -696,7 +705,8 @@ a.hide_thread_button:hover {
     width: 300px !important;
     overflow: hidden !important;
     
-    font-size: 9pt !important;
+    font-size: 12px !important;
+    line-height: 21px !important;
     background: #5c6066 !important;
     color: #b8bfcc !important;
     border-radius: 2px !important;
@@ -721,7 +731,7 @@ a.hide_thread_button:hover {
 #watcher::before {
     content: "watcher";
     position: fixed !important;
-    height: 15px !important;
+    height: 14px !important;
     top: 88px !important;
     right: 10px !important;
     cursor: pointer !important;
@@ -729,10 +739,11 @@ a.hide_thread_button:hover {
     
     background: #b8bfcc !important;
     color: #fff !important;
+    line-height: 14px !important;
     padding: 2px !important;
     border-radius: 2px !important;
     text-align: center !important;
-    opacity: 0.75 !important;
+    opacity: 0.65 !important;
 }
 
 #watcher:hover::before {
@@ -785,19 +796,20 @@ input[type="checkbox"]#imageExpand,
 #imgControls > *::before {
     position: fixed !important;
     content: "expand";
+    height: 14px !important;
     top: 62px !important;
     right: 10px !important;
     z-index: 0 !important;
     cursor: pointer !important;
     width: 50px !important;
     
-    font-size: 9pt !important;
+    font-size: 12px !important;
     color: #fff !important;
     background: #b8bfcc !important;
     padding: 2px !important;
     border-radius: 2px !important;
     text-align: center !important;
-    opacity: 0.75 !important;
+    opacity: 0.65 !important;
 }
     
 #imgControls > *:hover::before {
@@ -815,14 +827,15 @@ input[type="checkbox"]#imageExpand,
     width: 300px !important;
     text-align: left !important;
     margin: 0 auto !important;
-    font-size: 9pt !important;
-    padding: 4px !important;
+    font-size: 12px !important;
+    padding: 6px !important;
+    line-height: 21px !important;
     
     background: #32baba !important;
     color: #fff !important;
     border-radius: 2px !important;
     border-top-right-radius: 0 !important;
-    z-index: 0 !important;
+    z-index: 1 !important;
 }
 
 #globalMessage * {
@@ -838,28 +851,29 @@ input[type="checkbox"]#imageExpand,
 #globalMessage a {
     color: #fff !important;
     text-decoration: none !important;
-	border-bottom: 1px dotted #ebf0f0 !important;
+    border-bottom: 1px dotted #ebf0f0 !important;
 }
 
 #globalMessage a:hover {
-	border-bottom: 1px solid #fff !important;
+    border-bottom: 1px solid #fff !important;
 }
 
 #globalMessage::before {
     content: "message";
     position: fixed !important;
-    height: 15px !important;
+    height: 14px !important;
     top: 114px !important;
     right: 10px !important;
     cursor: pointer !important;
     width: 50px !important;
+    line-height: 14px !important;
     
     background: #b8bfcc !important;
     color: #fff !important;
     padding: 2px !important;
     border-radius: 2px !important;
     text-align: center !important;
-    opacity: 0.75 !important;
+    opacity: 0.65 !important;
 }
 
 #globalMessage:hover::before {
@@ -918,10 +932,11 @@ input[type="checkbox"]#imageExpand,
     padding: 2px !important;
     font-size: 0 !important;
     cursor: pointer !important;
-    opacity: 0.75 !important;
+    opacity: 0.65 !important;
     position: fixed !important;
     top: 36px !important;
     right: 10px !important;
+    max-height: 18px !important;
     
     z-index: 4 !important;
 }
@@ -937,17 +952,14 @@ input[type="checkbox"]#imageExpand,
 
 #qr .move:after {
     content: "reply";
-    font-size: 9pt !important;
-}
-
-#qr .move input[type="checkbox"]:not(:checked) {
+    font-size: 12px !important;
 }
 
 /* QR fields */
 #qr input::-moz-placeholder, 
 #qr textarea::-moz-placeholder {
     color: #b8bfcc !important;
-    font-size: 9pt !important;
+    font-size: 12px !important;
     text-transform: lowercase !important;
     margin-top: 0px !important;
     margin-bottom: 0px !important;
@@ -1014,6 +1026,7 @@ form > .textarea > .field {
     max-width: 200px !important;
     margin-bottom: 0px !important;
     font-size: 10pt !important;
+    line-height: 21px !important;
         
     background: #fff !important;
     color: #3a4956 !important;
@@ -1022,7 +1035,7 @@ form > .textarea > .field {
     
 form > div > input[type="submit"] {
     position: absolute !important;
-    font-size: 9pt !important;
+    font-size: 12px !important;
     float: right !important;
     width: 70px !important;
     height: 26px !important;
@@ -1043,7 +1056,7 @@ form > div > input[type="submit"] {
     margin-top: 0px !important;
     margin-left: 1px !important;
     margin-bottom: 0px !important;
-    font-size: 9pt !important;
+    font-size: 12px !important;
     height: 26px !important;
     border: none !important;
     background: #fff !important;
@@ -1072,7 +1085,7 @@ form > div > input[type="file"] > * {
     -moz-appearance: none;
     background: #fff !important;
     color: #3a4956 !important;
-    font-size: 9pt !important;
+    font-size: 12px !important;
     border: none !important;
     border-top: 1px solid #e6e8eb !important;
     border-bottom-left-radius: 2px !important;
@@ -1084,7 +1097,7 @@ form > div > input[type="file"] {
 
 form > div > input[type="file"] > input[type="button"] {
     position: absolute !important;
-    font-size: 9pt !important;
+    font-size: 12px !important;
     float: right;
     width: 70px !important;
     height: 26px !important;
@@ -1173,6 +1186,14 @@ form > div > input[type="file"] > input[type="button"]:hover {
     margin-right: 0 !important;
 }
 
+.inline .postInfo {
+    line-height: 14px !important;
+}
+
+.inline .fileInfo {
+    line-height: 12px !important;
+}
+
 /* Keep menu button transparent for inline posts */
 .inline .postInfo a.menu_button {
     color: transparent !important;
@@ -1195,7 +1216,7 @@ form > div > input[type="file"] > input[type="button"]:hover {
     margin: 0 auto !important;
     margin-bottom: -18px !important;
     
-    font-size: 9pt !important;
+    font-size: 12px !important;
     color: transparent !important;
     background: transparent !important;
     border: none !important;
@@ -1218,7 +1239,7 @@ form > div > input[type="file"] > input[type="button"]:hover {
     margin-left: 5px !important;
     background: #b8bfcc !important;
     border-radius: 2px !important;
-    opacity: 0.75 !important;
+    opacity: 0.65 !important;
     border: none !important;
     text-transform: lowercase !important;
     padding: 2px !important;
@@ -1226,7 +1247,7 @@ form > div > input[type="file"] > input[type="button"]:hover {
 
 .pagelist .cataloglink a {
     color: #fff !important;
-    font-size: 9pt !important;
+    font-size: 12px !important;
 }
 
 .pagelist .prev input, .pagelist .next input {
@@ -1235,11 +1256,11 @@ form > div > input[type="file"] > input[type="button"]:hover {
     color: #fff !important;
     border: none !important;
     border-radius: 2px !important;
-    opacity: 0.75 !important;
+    opacity: 0.65 !important;
     padding: 1px !important;
     text-transform: lowercase !important;
     cursor: pointer !important;
-    font-size: 9pt !important;
+    font-size: 12px !important;
 }
 
 .pagelist .prev input:hover,
@@ -1266,7 +1287,7 @@ form > div > input[type="file"] > input[type="button"]:hover {
 }
 
 body {
-    font-family: Lucida Grande, sans-serif !important;
+    font-family: "Helvetica Neue", sans-serif !important;
     color: #3a4956 !important;
 }
 
@@ -1274,7 +1295,7 @@ body {
 #settings {
     text-transform: lowercase !important;
     color: #b8bfcc !important;
-    font-size: 9pt !important;
+    font-size: 12px !important;
     float: none !important;
     text-align: center !important;
     margin-top: 15px !important;
@@ -1285,13 +1306,13 @@ body {
 }
 
 .button {
-    font-size: 9pt !important;
+    font-size: 12px !important;
     color: #7c818a !important;
     text-decoration: none !important;
 }
 
 .button:hover {
-    color: #3a78d4 !important;
+    color: #367dc4 !important;
     transition: all 0.3s ease 0s;
 }
 
@@ -1303,11 +1324,11 @@ body {
     color: #fff !important;
     border: none !important;
     border-radius: 2px !important;
-    opacity: 0.75 !important;
+    opacity: 0.65 !important;
     padding: 1px !important;
     text-transform: lowercase !important;
     cursor: pointer !important;
-    font-size: 9pt !important;
+    font-size: 12px !important;
 }
 
 #order-ctrl:hover,
