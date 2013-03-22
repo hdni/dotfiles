@@ -42,7 +42,7 @@ html, body {
     margin: 0 !important;
     padding: 0 !important;
     background: #fff !important;
-    color: #3a4956 !important;
+    color: #33414d !important;
     font-family: "Helvetica Neue", sans-serif !important;
     font-size: 13px !important;
 }
@@ -687,7 +687,7 @@ a.hide_thread_button:hover {
 }
 
 #options.reply.dialog #content label {
-    color: #3a4956 !important;
+    color: #33414d !important;
 }
 
 #overlay {
@@ -992,7 +992,7 @@ input[title="Subject"].field {
         
     font-size: 10pt !important;
     background: #fff !important;
-    color: #3a4956 !important;
+    color: #33414d !important;
     border-bottom: 1px solid #e6e8eb !important;
 }
     
@@ -1028,7 +1028,7 @@ form > .textarea > .field {
     line-height: 21px !important;
         
     background: #fff !important;
-    color: #3a4956 !important;
+    color: #33414d !important;
     border: none !important;
 }
     
@@ -1059,7 +1059,7 @@ form > div > input[type="submit"] {
     height: 26px !important;
     border: none !important;
     background: #fff !important;
-    color: #3a4956 !important;
+    color: #33414d !important;
 }
     
 /* Lighter captcha */
@@ -1083,7 +1083,7 @@ form > div > input[type="file"] > * {
         
     -moz-appearance: none;
     background: #fff !important;
-    color: #3a4956 !important;
+    color: #33414d !important;
     font-size: 12px !important;
     border: none !important;
     border-top: 1px solid #e6e8eb !important;
@@ -1181,8 +1181,8 @@ form > div > input[type="file"] > input[type="button"]:hover {
     margin-bottom: 0 !important;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
-
-	color: #445566 !important;
+    
+    color: #445566 !important;
 }
 
 #qp {
@@ -1297,7 +1297,7 @@ form > div > input[type="file"] > input[type="button"]:hover {
 
 body {
     font-family: "Helvetica Neue", sans-serif !important;
-    color: #3a4956 !important;
+    color: #33414d !important;
 }
 
 /* Settings */
@@ -1354,7 +1354,7 @@ body {
     border: 1px solid #e6e8eb !important;
     border-radius: 2px !important;
     background: #fff !important;
-    color: #3a4956 !important;
+    color: #33414d !important;
 }
 
 #qr-clear {
