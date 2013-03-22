@@ -129,8 +129,8 @@ a:active, a:focus {
     background-color: transparent !important;
     border: 1px #e6e8eb solid !important;
     border-radius: 2px !important;
-        
-	vertical-align: middle !important;
+    
+    vertical-align: middle !important;
     font-size: 12px !important;
     padding-bottom: 2px !important;
     padding-top: 4px !important;
@@ -1168,11 +1168,21 @@ form > div > input[type="file"] > input[type="button"]:hover {
 }
 
 .inline, #qp {
-    padding: 4px !Important;
+    padding: 4px !important;
 
     background: #fff !important;
     border-color: #e6e8eb !important;
     border-radius: 2px !important;
+}
+
+.inline {
+    border: none !important;
+    border-left: 1px solid #e6e8eb !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+
+	color: #445566 !important;
 }
 
 #qp {
