@@ -64,7 +64,7 @@ a:active, a:focus {
 
 /* Fix hide thread button for first post */
 .thread:first-child .hide_thread_button {
-    top: 15px !important;
+    top: 14px !important;
 }
 
 /* Posts 
@@ -417,9 +417,9 @@ a.hide_thread_button {
 .hide_thread_button {
     opacity: 0 !important;
     position: absolute !important;
-    margin-top: 20px !important;
+    margin-top: 19px !important;
     font-size: 0 !important;
-    right: 171px !important;
+    right: 170px !important;
     
     background: #d1d5de !important;
     padding: 2px !important;
