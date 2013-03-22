@@ -842,8 +842,7 @@ input[type="checkbox"]#imageExpand,
 }
 
 #globalMessage a:hover {
-    color: #fff !important;
-    transition: all 0.3s ease 0.2s !important;
+	border-bottom: 1px solid #fff !important;
 }
 
 #globalMessage::before {
