@@ -480,7 +480,7 @@ a.hide_thread_button:hover {
 #stats {
     position: fixed !important;
     top: auto !important;
-    right: 6px !important;
+    right: 10px !important;
     bottom: 6px !important;
     left: auto !important;
     
@@ -493,7 +493,7 @@ a.hide_thread_button:hover {
     position: fixed !important;
     bottom: 20px !important;
     left: auto !important;
-    right: 6px !important;
+    right: 10px !important;
     
     font-size: 8pt !important;
     color: #b1b8c4 !important;
