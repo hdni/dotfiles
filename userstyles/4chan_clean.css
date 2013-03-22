@@ -130,8 +130,7 @@ a:active, a:focus {
     border: 1px #e6e8eb solid !important;
     border-radius: 2px !important;
         
-    margin-bottom: -6px !important;
-    margin-top: 1px !important;
+	vertical-align: middle !important;
     font-size: 12px !important;
     padding-bottom: 2px !important;
     padding-top: 4px !important;
