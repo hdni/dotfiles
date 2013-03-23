@@ -1,7 +1,7 @@
 Screenshot
 ==========
 
-![Screenshot](https://raw.github.com/hdni/dotfiles/master/startpage/screenshot.png)
+![Screenshot](http://hdni.github.com/dotfiles/assets/startpage.png)
 
 How to use
 ----------
