@@ -15,12 +15,12 @@
 <constant name="C_border_unfocused" value="#f6f6f6" />
 <!--<constant name="C_border_attached_focused" value="blend/#000000/gtk:bg[NORMAL]/0.7" />-->
 <constant name="C_border_attached_focused" value="#f6f6f6" />
-<constant name="C_titlebar_focused_hilight" value="gtk:bg[NORMAL]/1.25" />
-<!--<constant name="C_titlebar_focused_hilight" value="#f6f6f6" />-->
+<!--<constant name="C_titlebar_focused_hilight" value="gtk:custom(wm_highlight,gtk:base[NORMAL])" />-->
+<constant name="C_titlebar_focused_hilight" value="#f6f6f6" />
 <!--<constant name="C_titlebar_unfocused" value="blend/gtk:base[NORMAL]/gtk:bg[NORMAL]/0.2" />-->
 <constant name="C_titlebar_unfocused" value="#f6f6f6" />
-<constant name="C_title_focused" value="gtk:bg[NORMAL]/0.00" />
-<constant name="C_title_focused_hilight" value="gtk:bg[NORMAL]/0.00" />
+<constant name="C_title_focused" value="#f6f6f6" />
+<constant name="C_title_focused_hilight" value="#f6f6f6" />
 <!--<constant name="C_title_unfocused" value="blend/gtk:text[NORMAL]/gtk:bg[NORMAL]/0.2" />-->
 <constant name="C_title_unfocused" value="#f6f6f6" />
 
@@ -42,7 +42,7 @@
 	<distance name="left_titlebar_edge" value="6"/>
 	<distance name="right_titlebar_edge" value="6"/>
 	<distance name="button_width" value="20"/>
-	<distance name="button_height" value="10"/>
+	<distance name="button_height" value="14"/>
 	<distance name="title_vertical_pad" value="0"/>
   	<border name="title_border" left="2" right="2" top="0" bottom="0"/>
   	<border name="button_border" left="0" right="0" top="1" bottom="1"/>
@@ -58,7 +58,7 @@
   <distance name="left_titlebar_edge" value="6"/>
   <distance name="right_titlebar_edge" value="6"/>
   <distance name="button_width" value="20"/>
-  <distance name="button_height" value="12"/>
+  <distance name="button_height" value="14"/>
   <distance name="title_vertical_pad" value="0"/>
   <border name="title_border" left="2" right="2" top="0" bottom="0"/>
   <border name="button_border" left="0" right="0" top="1" bottom="1"/>
@@ -162,20 +162,20 @@
 
 <draw_ops name="titlebar_fill_focused">
 	<gradient type="vertical" x="0" y="0" width="width" height="top_height">
-		<color value="shade/gtk:bg[NORMAL]/1.05" />
-		<color value="gtk:custom(toolbar_gradient_start,gtk:bg[NORMAL])" />
-		<!--<color value="#fbfbfb" />
-		<color value="#f4f4f4" />-->
+		<!--<color value="blend/#000000/gtk:bg[NORMAL]/0.95" />
+		<color value="gtk:custom(toolbar_gradient_start,gtk:bg[NORMAL])" />-->
+		<color value="#fbfbfb" />
+		<color value="#f4f4f4" />
 	</gradient>
 </draw_ops>
 
 <!-- Dialogs -->
 <draw_ops name="dialog_titlebar_fill_focused">
 	<gradient type="vertical" x="0" y="0" width="width" height="top_height">
-		<!--<color value="#fbfbfb" />
-		<color value="#f4f4f4" />-->
-		<color value="shade/gtk:bg[NORMAL]/1.05" />
-		<color value="gtk:custom(toolbar_gradient_start,gtk:bg[NORMAL])" />
+		<!--<color value="shade/gtk:bg[NORMAL]/0.88"/>
+		<color value="shade/gtk:bg[NORMAL]/0.74"/>-->
+		<color value="#fbfbfb" />
+		<color value="#f4f4f4" />
 	</gradient>
     <!--<line x1="0" y1="top_height-1" x2="width" y2="top_height-1" color="shade/gtk:bg[NORMAL]/0.45" />-->
 </draw_ops>
@@ -184,22 +184,18 @@
     <!--<line x1="0" y1="0" x2="width" y2="0" color="shade/gtk:bg[NORMAL]/0.64" />-->
 	<gradient type="vertical" x="0" y="1" width="width" height="6">
 		<!--<color value="shade/gtk:bg[NORMAL]/0.87"/>
-		<color value="shade/gtk:bg[NORMAL]/1.00"/>
+		<color value="shade/gtk:bg[NORMAL]/1.00"/>-->
 		<color value="#fbfbfb" />
-		<color value="#f4f4f4" />-->
-		<color value="shade/gtk:bg[NORMAL]/1.05" />
-		<color value="gtk:custom(toolbar_gradient_start,gtk:bg[NORMAL])" />
+		<color value="#f4f4f4" />
 	</gradient>
 </draw_ops>
 
 <draw_ops name="titlebar_fill_unfocused">
 	<gradient type="vertical" x="0" y="0" width="width" height="top_height">
 		<!--<color value="C_titlebar_unfocused" />
-		<color value="gtk:bg[NORMAL]" />
+		<color value="gtk:bg[NORMAL]" />-->
 		<color value="#fbfbfb" />
-		<color value="#f4f4f4" />-->
-		<color value="shade/gtk:bg[NORMAL]/1.05" />
-		<color value="gtk:custom(toolbar_gradient_start,gtk:bg[NORMAL])" />
+		<color value="#f4f4f4" />
 	</gradient>
 </draw_ops>
 
