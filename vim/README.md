@@ -1,6 +1,8 @@
 vim custom files
 ----------------
-[!Screenshot](http://hdni.github.com/dotfiles/assets/vim.png)
+
+![Screenshot](http://hdni.github.com/dotfiles/assets/vim.png)
+
 Various files relating to vim configuration. They are:
 * .vimrc : main vim configuration file. To be placed in ~.
 * colorscheme.vim : custom vim colorscheme which uses only the terminal's colors. To be placed in /usr/share/vim/vim73/colors. 
