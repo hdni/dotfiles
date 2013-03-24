@@ -15,12 +15,12 @@
 <constant name="C_border_unfocused" value="#f6f6f6" />
 <!--<constant name="C_border_attached_focused" value="blend/#000000/gtk:bg[NORMAL]/0.7" />-->
 <constant name="C_border_attached_focused" value="#f6f6f6" />
-<constant name="C_titlebar_focused_hilight" value="gtk:bg[NORMAL]/1.25" />
+<constant name="C_titlebar_focused_hilight" value="#f6f6f6" />
 <!--<constant name="C_titlebar_focused_hilight" value="#f6f6f6" />-->
 <!--<constant name="C_titlebar_unfocused" value="blend/gtk:base[NORMAL]/gtk:bg[NORMAL]/0.2" />-->
 <constant name="C_titlebar_unfocused" value="#f6f6f6" />
-<constant name="C_title_focused" value="gtk:bg[NORMAL]/0.00" />
-<constant name="C_title_focused_hilight" value="gtk:bg[NORMAL]/0.00" />
+<constant name="C_title_focused" value="#f6f6f6" />
+<constant name="C_title_focused_hilight" value="#f6f6f6" />
 <!--<constant name="C_title_unfocused" value="blend/gtk:text[NORMAL]/gtk:bg[NORMAL]/0.2" />-->
 <constant name="C_title_unfocused" value="#f6f6f6" />
 

@@ -1,5 +1,5 @@
 This is a set of themes for use with Gnome Shell 3.6.2. It is based off Faience, with entirely different window decorations and adapted GTK themes, and a slightly tweaked shell theme.
-For better results, set the font size of your window title to 0 in the Gnome Tweak Tool.
+To hide the window title, install the Blank Serif font provided, and set the font size of your window title to 0 in the Gnome Tweak Tool.
 
 Installation
 ============
