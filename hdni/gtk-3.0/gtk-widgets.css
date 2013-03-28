@@ -152,7 +152,7 @@ GtkAssistant .sidebar .highlight {
 
 GtkAssistant .sidebar {
     background-color: shade (@theme_bg_color, 0.97);
-    border-right-color: shade (@theme_bg_color, 0.8);
+    border-right-color: shade (@sidebar_bg_color, 0.9);
     border-radius: 0;
     border-style: solid;
     border-width: 0 1px 0 0;
@@ -1262,7 +1262,7 @@ GtkComboBox .menuitem *:hover {
 .sidebar .pane-separator,
 .pane-separator {
     background-color: transparent;
-    border-color: shade (@theme_bg_color, 0.84);
+    border-color: @theme_bg_color;
 }
 
 /*************************
@@ -1688,7 +1688,7 @@ GtkScrolledWindow.frame {
     border-top-color: shade (@theme_bg_color, 0.84);
     border-right-color: shade (@theme_bg_color, 0.76);
     border-bottom-color: shade (@theme_bg_color, 0.86);
-    border-left-color: shade (@theme_bg_color, 0.76);
+    border-left-color: shade (@theme_bg_color, 0.86);
     border-radius: 0;
     border-style: solid;
 }
@@ -1713,7 +1713,7 @@ GtkTreeView.view.separator,
 GtkTreeView.separator,
 .separator,
 .separator:hover {
-    color: shade (@theme_bg_color, 0.92);
+    color: shade (@theme_bg_color, 1.50);
 }
 
 .separator.horizontal {
@@ -1786,13 +1786,13 @@ GtkComboBox .menuitem.separator {
 .sidebar .frame {
     border-width: 1px 0 0 0;
     border-style: solid;
-    border-color: shade(@sidebar_bg_color, 0.9);
+    border-color: @sidebar_bg_color;
     border-radius: 0;
 }
 
 .sidebar:backdrop,
 .sidebar .view:backdrop {
-    background-color: shade(@sidebar_bg_color, 1.05);
+    background-color: @sidebar_bg_color;
 
     color: shade(@sidebar_fg_color, 1.5);
     text-shadow: 0 1px alpha (white, 0.2); 
