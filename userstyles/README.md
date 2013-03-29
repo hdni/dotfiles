@@ -1,8 +1,3 @@
-Screenshot - 4chan Clean and userChrome
-=======================================
-
-![Screenshot](http://hdni.github.com/dotfiles/assets/4chan_clean.png)
-
 4chan CSS
 =========
 
