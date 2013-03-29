@@ -1047,6 +1047,7 @@ form > div > input[type="submit"] {
     color: #b8bfcc !important;
     border: none !important;
     border-left: 1px solid #e6e8eb !important;
+    border-top: 1px solid #e6e8eb !important;
     border-bottom: 1px solid #e6e8eb !important;
     text-transform: lowercase !important;
 }
@@ -1061,6 +1062,7 @@ form > div > input[type="submit"] {
     border: none !important;
     background: #fff !important;
     color: #33414d !important;
+    border-top: 1px solid #e6e8eb !important;
 }
     
 /* Lighter captcha */
@@ -1068,7 +1070,6 @@ form > div > input[type="submit"] {
     outline: none !important;
     border: none !important;
     border-top: 1px solid #e6e8eb !important;
-    border-bottom: 1px solid #e6e8eb !important;
     margin: 0 auto !important;
     background: #fff !important;
 }
@@ -1080,17 +1081,19 @@ form > div > input[type="submit"] {
   
 form > div > input[type="file"] > * {
     width: 330px !important;
-    height: 23px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
         
     -moz-appearance: none;
     background: #fff !important;
-    color: #33414d !important;
+    color: #b8bfcc !important;
     font-size: 12px !important;
     border: none !important;
     border-top: 1px solid #e6e8eb !important;
+    border-bottom: 1px solid #e6e8eb !important;
     border-bottom-left-radius: 2px !important;
 }
-    
+
 form > div > input[type="file"] {
     margin-top: -1px !important;
 }
@@ -1098,19 +1101,19 @@ form > div > input[type="file"] {
 form > div > input[type="file"] > input[type="button"] {
     position: absolute !important;
     font-size: 12px !important;
-    float: right;
+    right: 4px !important;
     width: 70px !important;
-    height: 26px !important;
-    margin-top: 0px !important;
-    margin-left: 0px !important;
-    padding-bottom: 1px !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    padding-bottom: 5px !important;
+    padding-top: 4px !important;
         
     -moz-appearance: none;
     background: #fff !important;
     color: #b8bfcc !important;
     border: none !important;
-    border-top: 1px solid #e6e8eb !important;
     border-left: 1px solid #e6e8eb !important;
+    border-top: 1px solid #e6e8eb !important;
     border-bottom-left-radius: 0px !important;
     border-bottom-right-radius: 2px !important;
     text-transform: lowercase !important;
