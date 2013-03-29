@@ -224,6 +224,7 @@ a.useremail {
 
 .postNum {
     font-size: 12px !important;
+    text-transform: lowercase !important;
 }
 
 .postNum a[title="Highlight this post"],
@@ -1285,13 +1286,15 @@ form > div > input[type="file"] > input[type="button"]:hover {
 /* Catalog
 ================================ */
 @-moz-document regexp("https://boards\\.4chan\\.org\\/(.|..|...)\\/catalog") {
+
 /* Cleanup */
 #globalMessage, 
 #toggleMsgBtn, 
 #styleSwitcher, 
 #info,
 #globalToggle,
-#first-run {
+#first-run,
+#togglePostForm {
     display: none !important;
 }
 
