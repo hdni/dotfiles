@@ -141,7 +141,6 @@ a:active, a:focus {
      content: "(" attr(href) ")";
      margin-left: 3px;
      color: #6c81a1 !important;
-     transition: all 0.3s ease 0s;
 }
 
 /* Post info */
@@ -173,7 +172,6 @@ a.useremail[href*='sage'] .postertrip:hover,
 a.useremail[href*='Sage'] .postertrip:hover,
 a.useremail[href*='SAGE'] .postertrip:hover {
     color: #2ba1a1 !important;
-    transition: all 0.3s ease 0s;
 }
 
 a.useremail {
@@ -196,7 +194,6 @@ a.useremail {
 .postMessage a:hover,
 #credits a:hover {
     color: #245585 !important;
-    transition: all 0.3s ease 0s;
 }
 
 .quote {
@@ -244,7 +241,6 @@ a.useremail {
 .postNum a[title="Quote this post"]:hover,
 .inline .postNum a:hover {
     color: #367dc4 !important;
-    transition: all 0.3s ease 0s !important;
 }
 
 /* Replace backlinks by arrow icons */
@@ -264,7 +260,6 @@ a.useremail {
     
 .backlink:hover::after, .backlink.filtered:hover::after {
     opacity: 0.75 !important;
-    transition: all 0.3s ease 0s;
 }
     
 .backlink.filtered:after {
@@ -292,14 +287,12 @@ a.useremail {
 .inline .fileInfo a:hover,
 .inline .fileText a:hover {
     background: #5c6066 !important;
-    transition: all 0.3s ease 0s;
 }
 
 .fileInfo:hover a,
 .inline .fileInfo a:hover,
 .inline .fileText a:hover  {
     opacity: 1 !important;
-    transition: all 0.3s ease 0s;
 }
 
 /* Override source link button theming for filename */
@@ -314,7 +307,6 @@ a.useremail {
 .inline .fileText a:hover {
     background: transparent !important;
     color: #367dc4 !important;
-    transition: all 0.3s ease 0s;
 }
 
 /* Make post buttons appear only when hovering over a post */
@@ -325,7 +317,6 @@ a.useremail {
 .thread:hover .favicon,
 .thread:hover .hide_thread_button {
     opacity: 1 !important;
-    transition: all 0.3s ease 0s !important;
 }
 
 /* Post buttons */
@@ -369,7 +360,6 @@ a.useremail {
 .hide_reply_button:hover, .menu_button:hover {
     background: #5c6066 !important;
     opacity: 1 !important;
-    transition: all 0.3s ease 0s;
 }
 
 #menu {
@@ -386,7 +376,6 @@ a.useremail {
 
 #menu .entry:hover {
     color: #24a1a1 !important;
-    transition: all 0.3s ease 0s;
 }
 
 .subMenu {
@@ -461,7 +450,6 @@ a.replylink:hover {
 
 a.hide_thread_button:hover {
     background: #5c6066 !important;
-    transition: all 0.3s ease 0s;
 }
 
 .postNum span {
@@ -538,7 +526,6 @@ a.hide_thread_button:hover {
 #updater input[name="Update Now"]:hover {
     background: #5c6066 !important;
     opacity: 1 !important;
-    transition: all 0.3s ease 0s;
 }
 
 #count.new {
@@ -603,7 +590,6 @@ a.hide_thread_button:hover {
 
 #boardNavDesktop a:hover {
     color: #fff !important;
-    transition: all 0.3s ease 0s;
 }
 
 #boardNavDesktop a[href="https://boards.4chan.org/g/"],
@@ -634,7 +620,6 @@ a.hide_thread_button:hover {
 
 #boardNavDesktop:hover::before {
     background: #32baba !important;
-    transition: all 0.3s ease 0s;
     opacity: 1 !important;
     border-bottom-left-radius: 0 !important;
     border-top-left-radius: 0 !important;
@@ -651,7 +636,6 @@ a.hide_thread_button:hover {
     border-bottom-right-radius: 2px !important;
     height: 18px !important;
     
-    transition: all 0.3s ease 0s;
     opacity: 1 !important;
 }
 
@@ -748,7 +732,6 @@ a.hide_thread_button:hover {
 
 #watcher:hover::before {
     background: #5c6066 !important;
-    transition: all 0.3s ease 0s;
     opacity: 1 !important;
     border-bottom-left-radius: 0 !important;
     border-top-left-radius: 0 !important;
@@ -762,7 +745,6 @@ a.hide_thread_button:hover {
     margin-top: 5px !important;
     cursor: default !important;
     
-    transition: all 0.3s ease 0s;
     opacity: 1 !important;
 }
     
@@ -778,7 +760,6 @@ a.hide_thread_button:hover {
     
 #watcher a:hover {
     color: #fff !important;
-    transition: all 0.3s ease 0s;
 }
 
 /* Expand images
@@ -814,7 +795,6 @@ input[type="checkbox"]#imageExpand,
     
 #imgControls > *:hover::before {
     background: #5c6066 !important;   
-    transition: all 0.3s ease 0s;
     opacity: 1 !important;
 }
 
@@ -878,7 +858,6 @@ input[type="checkbox"]#imageExpand,
 
 #globalMessage:hover::before {
     background: #32baba !important;
-    transition: all 0.3s ease 0s;
     opacity: 1 !important;
     border-bottom-left-radius: 0 !important;
     border-top-left-radius: 0 !important;
@@ -886,7 +865,6 @@ input[type="checkbox"]#imageExpand,
 
 #globalMessage:hover {
     right: 64px !important;
-    transition: all 0.3s ease 0s;
 }
 
 /* Quick reply
@@ -908,7 +886,6 @@ input[type="checkbox"]#imageExpand,
 
 #qr:hover {
     right: 64px !important;
-    transition: all 0.3s ease 0s;
     border-top-right-radius: 0 !important;
 }
 
@@ -944,7 +921,6 @@ input[type="checkbox"]#imageExpand,
 #qr .move:hover, 
 #qr:hover .move {
     background: #5c6066 !important;
-    transition: all 0.3s ease 0s;
     opacity: 1 !important;
     border-top-left-radius: 0 !important;
     border-bottom-left-radius: 0 !important;
@@ -1130,7 +1106,6 @@ form .captchainput {
 form > div > input[type="submit"]:hover,
 form > div > input[type="file"] > input[type="button"]:hover {
     color: #24a1a1 !important;
-    transition: all 0.3s ease 0s !important;
 }
 
 #qr .warning, #qr #errmsg {
@@ -1145,7 +1120,6 @@ form > div > input[type="file"] > input[type="button"]:hover {
 
 #qr .warning a:hover {
     color: #e6e8eb !important;
-    transition: all 0.3s ease 0s;
 }
 
 /* Spoiler label */
@@ -1281,7 +1255,6 @@ form > div > input[type="file"] > input[type="button"]:hover {
 .pagelist .cataloglink:hover {
     background: #5c6066 !important;
     opacity: 1 !important;
-    transition: all 0.3s ease 0s;
 }
 
 }
@@ -1328,7 +1301,6 @@ body {
 
 .button:hover {
     color: #367dc4 !important;
-    transition: all 0.3s ease 0s;
 }
 
 #order-ctrl,
@@ -1351,7 +1323,6 @@ body {
 #teaser-ctrl:hover {
     background: #5c6066 !important;
     opacity: 1 !important;
-    transition: all 0.3s ease 0s;
 }
 
 /* Search box */
