@@ -337,7 +337,7 @@ a.useremail {
     float: right;
     font-size: 0;
     margin-right: 52px;
-    background: #d1d5de !important;
+    background: #d2d5de !important;
     border-radius: 2px !important;
     padding: 2px !important;
     text-align: center !important;
@@ -593,9 +593,13 @@ a.hide_thread_button:hover {
 }
 
 #boardNavDesktop a[href="https://boards.4chan.org/g/"],
+#boardNavDesktop a[href="https://boards.4chan.org/g/catalog"],
 #boardNavDesktop a[href="https://boards.4chan.org/fa/"],
+#boardNavDesktop a[href="https://boards.4chan.org/fa/catalog"],
 #boardNavDesktop a[href="https://boards.4chan.org/mu/"],
+#boardNavDesktop a[href="https://boards.4chan.org/mu/catalog"],
 #boardNavDesktop a[href="https://boards.4chan.org/sci/"],
+#boardNavDesktop a[href="https://boards.4chan.org/sci/catalog"],
 #boardNavDesktop a.settingsWindowLink {
     display: inline !important;
 }
@@ -609,13 +613,12 @@ a.hide_thread_button:hover {
     cursor: pointer !important;
     width: 50px !important;
     
-    background: #b8bfcc !important;
+    background: #d2d5de !important;
     font-size: 12px !important;
     color: #fff !important;
     padding: 2px !important;
     border-radius: 2px !important;
     text-align: center !important;
-    opacity: 0.65 !important;
 }
 
 #boardNavDesktop:hover::before {
@@ -721,13 +724,12 @@ a.hide_thread_button:hover {
     cursor: pointer !important;
     width: 50px !important;
     
-    background: #b8bfcc !important;
+    background: #d2d5de !important;
     color: #fff !important;
     line-height: 14px !important;
     padding: 2px !important;
     border-radius: 2px !important;
     text-align: center !important;
-    opacity: 0.65 !important;
 }
 
 #watcher:hover::before {
@@ -786,11 +788,10 @@ input[type="checkbox"]#imageExpand,
     
     font-size: 12px !important;
     color: #fff !important;
-    background: #b8bfcc !important;
+    background: #d2d5de !important;
     padding: 2px !important;
     border-radius: 2px !important;
     text-align: center !important;
-    opacity: 0.65 !important;
 }
     
 #imgControls > *:hover::before {
@@ -848,12 +849,11 @@ input[type="checkbox"]#imageExpand,
     width: 50px !important;
     line-height: 14px !important;
     
-    background: #b8bfcc !important;
+    background: #d2d5de !important;
     color: #fff !important;
     padding: 2px !important;
     border-radius: 2px !important;
     text-align: center !important;
-    opacity: 0.65 !important;
 }
 
 #globalMessage:hover::before {
@@ -899,7 +899,7 @@ input[type="checkbox"]#imageExpand,
 }
 
 #qr .move {
-    background: #b8bfcc !important;
+    background: #d2d5de !important;
     border-radius: 2px !important;
     max-width: 54px !important;
     min-width: 54px !important;
@@ -909,7 +909,6 @@ input[type="checkbox"]#imageExpand,
     padding: 2px !important;
     font-size: 0 !important;
     cursor: pointer !important;
-    opacity: 0.65 !important;
     position: fixed !important;
     top: 36px !important;
     right: 10px !important;
@@ -1051,7 +1050,7 @@ form > div > input[type="submit"] {
 }
     
 .captchaimg img {
-    opacity: 0.6 !important;
+    opacity: 0.55 !important;
     margin: 0 auto !important;
 }
   
@@ -1360,3 +1359,4 @@ body {
 }
 
 }
+
