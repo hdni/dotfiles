@@ -68,8 +68,8 @@
 #tabbrowser-tabs {
     background: -moz-linear-gradient(#eee,#dfdfdf) !important;
     border: none !important;
-    padding-left: 6px !important;
-    padding-right: 6px !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
     padding-bottom: 2px !important;
     border-bottom: 1px solid #bdbdbd !important;
 }
