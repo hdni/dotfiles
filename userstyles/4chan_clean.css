@@ -1131,13 +1131,33 @@ form > div > input[type="file"] > input[type="button"]:hover {
 #qr input[id="spoiler"] {
     -moz-appearance: none !important;
     border: none !important;
+    float: right !important;
     border-radius: 2px !important;
+    margin-top: 0 !important;
+    margin-right: 0 !important;
 }
 
 #qr #spoilerLabel {
-    color: #fff !important;
+    float: right !important;
+    color: transparent !important;
+    font-size: 0 !important;
+    font-family: "Helvetica Neue", sans-serif !important;
     text-transform: lowercase !important;
-    margin-left: -4px !important;
+    text-align: right !important;
+    
+    margin-top: -16px !important;
+    padding-bottom: 2px !important;
+    width: 70px !important;
+}
+
+#qr #spoilerLabel:after {
+    content: "spoiler";
+    color: #d2d5de !important;
+    font-size: 12px !important;
+}
+
+#qr #spoilerLabel:hover::after {
+    color: #e6e8eb !important;
 }
 
 /* Quick previews and inline replies
@@ -1365,4 +1385,3 @@ body {
 }
 
 }
-
