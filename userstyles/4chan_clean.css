@@ -1015,7 +1015,7 @@ form > div > input[type="submit"] {
     width: 70px !important;
     height: 26px !important;
     margin-top: -26px !important;
-    margin-left: 50px !important;
+    margin-left: 0 !important;
         
     -moz-appearance: none !important;
     background: #fff !important;
@@ -1023,7 +1023,8 @@ form > div > input[type="submit"] {
     border: none !important;
     border-left: 1px solid #e6e8eb !important;
     border-top: 1px solid #e6e8eb !important;
-    border-bottom: 1px solid #e6e8eb !important;
+    /*border-bottom: 1px solid #e6e8eb !important;*/
+    border-bottom-right-radius: 2px !important;
     text-transform: lowercase !important;
 }
     
@@ -1038,6 +1039,7 @@ form > div > input[type="submit"] {
     background: #fff !important;
     color: #33414d !important;
     border-top: 1px solid #e6e8eb !important;
+    border-bottom-left-radius: 2px !important;
 }
     
 /* Lighter captcha */
@@ -1054,28 +1056,13 @@ form > div > input[type="submit"] {
     margin: 0 auto !important;
 }
   
-form > div > input[type="file"] > * {
+#qr form > div > input[type="file"] {
     width: 330px !important;
-    padding-top: 5px !important;
-    padding-bottom: 5px !important;
-        
-    -moz-appearance: none;
-    background: #fff !important;
-    color: #b8bfcc !important;
-    font-size: 12px !important;
-    border: none !important;
-    border-top: 1px solid #e6e8eb !important;
-    border-bottom: 1px solid #e6e8eb !important;
-    border-bottom-left-radius: 2px !important;
+    margin-top: 0 !important;
 }
 
-form > div > input[type="file"] {
-    margin-top: -1px !important;
-}
-
-form > div > input[type="file"] > input[type="button"] {
-    position: absolute !important;
-    font-size: 12px !important;
+#qr form > div > input[type="file"] > * {
+    /*position: absolute !important;
     right: 4px !important;
     width: 70px !important;
     margin-top: 0 !important;
@@ -1083,7 +1070,8 @@ form > div > input[type="file"] > input[type="button"] {
     padding-bottom: 5px !important;
     padding-top: 4px !important;
         
-    -moz-appearance: none;
+    -moz-appearance: none !important;
+    font-size: 12px !important;
     background: #fff !important;
     color: #b8bfcc !important;
     border: none !important;
@@ -1091,7 +1079,25 @@ form > div > input[type="file"] > input[type="button"] {
     border-top: 1px solid #e6e8eb !important;
     border-bottom-left-radius: 0px !important;
     border-bottom-right-radius: 2px !important;
+    text-transform: lowercase !important;*/
+    
+    margin-top: 4px !important;
+    padding-bottom: 0px !important;
+    margin-left: -4px !important;
+    
+    -moz-appearance: none;
+    background: transparent !important;
+    color: #d2d5de !important;
+    font-size: 12px !important;
+    font-family: "Helvetica Neue", sans-serif !important;
+    border: none !important;
     text-transform: lowercase !important;
+    text-align: left !important;
+}
+
+#qr form > div > input[type="file"] > *:hover {
+    color: #e6e8eb !important;
+    cursor: pointer !important;
 }
 
 form .captchainput {
