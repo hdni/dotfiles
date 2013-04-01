@@ -687,6 +687,7 @@ a.hide_thread_button:hover {
 #watcher {
     position: fixed !important;
     top: 88px !important;
+    min-height: 18px !important;
     right: -1000px !important;
     left: auto !important;
     width: 300px !important;
@@ -704,8 +705,6 @@ a.hide_thread_button:hover {
     
 #watcher > div {
     max-width: 300px !important;
-    width: 300px !important;
-    overflow: hidden !important;
 }
 
 #watcher .move {
@@ -758,6 +757,8 @@ a.hide_thread_button:hover {
     
 #watcher a[href="javascript:;"] {
     color: #b8bfcc !important;
+    font-size: 14px !important;
+    margin-right: 2px !important;
 }
     
 #watcher a:hover {
