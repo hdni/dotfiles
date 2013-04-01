@@ -288,14 +288,14 @@
       <key>profiles/Default/background_darkness</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/background_darkness</schema_key>
       <value>
-        <float>0.974082</float>
+        <float>0.963283</float>
       </value>
     </entry>
     <entry>
       <key>profiles/Default/background_image</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/background_image</schema_key>
       <value>
-        <string></string>
+        <string>/home/will/Desktop/Untitled.png</string>
       </value>
     </entry>
     <entry>
@@ -344,7 +344,7 @@
       <key>profiles/Default/custom_command</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/custom_command</schema_key>
       <value>
-        <string></string>
+        <string>/usr/local/bin/gnome-terminal-command.sh</string>
       </value>
     </entry>
     <entry>
@@ -386,7 +386,7 @@
       <key>profiles/Default/exit_action</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/exit_action</schema_key>
       <value>
-        <string>close</string>
+        <string>restart</string>
       </value>
     </entry>
     <entry>
@@ -421,14 +421,14 @@
       <key>profiles/Default/palette</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/palette</schema_key>
       <value>
-        <string>#212126252929:#FDFD84848787:#7575D7D77070:#E6E6C9C97C7C:#62629797B3B3:#70707575BFBF:#5C5CB0B0A7A7:#DADADFDFE6E6:#383842424747:#FEFEA3A3A5A4:#9B9BEBEB9696:#FFFFE7E7A3A3:#8F8FBFBFD9D9:#9A9A9F9FDFDF:#8A8AD8D8CFCE:#F2F2F8F8FFFF</string>
+        <string>#212126252929:#FDFD84848787:#7575D7D77070:#E6E6C9C97C7C:#62629797B3B3:#70707575BFBF:#5C5CB0B0A7A7:#D0D0D5D5DBDB:#383842424747:#FEFEA3A3A5A4:#9B9BEBEB9696:#FFFFE7E7A3A3:#8F8FBFBFD9D9:#9A9A9F9FDFDF:#8A8AD8D8CFCE:#F0F0F6F6FCFC</string>
       </value>
     </entry>
     <entry>
       <key>profiles/Default/scroll_background</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/scroll_background</schema_key>
       <value>
-        <bool>true</bool>
+        <bool>false</bool>
       </value>
     </entry>
     <entry>
@@ -484,7 +484,7 @@
       <key>profiles/Default/title_mode</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/title_mode</schema_key>
       <value>
-        <string>replace</string>
+        <string>ignore</string>
       </value>
     </entry>
     <entry>
@@ -498,7 +498,7 @@
       <key>profiles/Default/use_custom_command</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/use_custom_command</schema_key>
       <value>
-        <bool>false</bool>
+        <bool>true</bool>
       </value>
     </entry>
     <entry>
@@ -526,7 +526,7 @@
       <key>profiles/Default/visible_name</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/visible_name</schema_key>
       <value>
-        <string>night</string>
+        <string>dusk</string>
       </value>
     </entry>
     <entry>
@@ -544,8 +544,9 @@
     </entry>
     <entry>
       <key>profiles/Profile0/background_color</key>
+      <schema_key>/schemas/apps/gnome-terminal/profiles/Default/background_color</schema_key>
       <value>
-        <string>#26262B2B2E2E</string>
+        <string>#262629282E2E</string>
       </value>
     </entry>
     <entry>
@@ -652,8 +653,9 @@
     </entry>
     <entry>
       <key>profiles/Profile0/palette</key>
+      <schema_key>/schemas/apps/gnome-terminal/profiles/Default/palette</schema_key>
       <value>
-        <string>#212126252929:#FDFD84848787:#7575D7D77070:#E6E6C9C97C7C:#62629797B3B3:#70707575BFBF:#5C5CB0B0A7A7:#DADADFDFE6E6:#383842424747:#FEFEA3A3A5A4:#9B9BEBEB9696:#FFFFE7E7A3A3:#8F8FBFBFD9D9:#9A9A9F9FDFDF:#8A8AD8D8CFCE:#F2F2F8F8FFFF</string>
+        <string>#242426262929:#FFFF44434443:#9999CCCC0000:#FFFFBBBA3332:#3333B5B5E5E5:#AAA96666CCCC:#0000CCCCAAA9:#DADADFDFE6E6:#3E3E45454D4D:#FFFF66666666:#BBBBEEEE5555:#FFFFCCCC6666:#7777CCCCFFFF:#C8C78F8FE6E6:#4444EEEECCCB:#F2F2F8F8FFFF</string>
       </value>
     </entry>
     <entry>
@@ -750,20 +752,6 @@
       <key>profiles/Profile0/word_chars</key>
       <value>
         <string>-A-Za-z0-9,./?%&amp;#:_=+@~</string>
-      </value>
-    </entry>
-    <entry>
-      <key>profiles/Profile0/palette</key>
-      <schema_key>/schemas/apps/gnome-terminal/profiles/Default/palette</schema_key>
-      <value>
-        <string>#242426262929:#FFFF44434443:#9999CCCC0000:#FFFFBBBA3332:#3333B5B5E5E5:#AAA96666CCCC:#0000CCCCAAA9:#DADADFDFE6E6:#3E3E45454D4D:#FFFF66666666:#BBBBEEEE5555:#FFFFCCCC6666:#7777CCCCFFFF:#C8C78F8FE6E6:#4444EEEECCCB:#F2F2F8F8FFFF</string>
-      </value>
-	</entry>
-	<entry>
-      <key>profiles/Profile0/background_color</key>
-      <schema_key>/schemas/apps/gnome-terminal/profiles/Default/background_color</schema_key>
-      <value>
-        <string>#262629282E2E</string>
       </value>
     </entry>
   </entrylist>
