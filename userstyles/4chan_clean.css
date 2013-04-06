@@ -870,7 +870,6 @@ input[type="checkbox"]#imageExpand,
 
 /* Quick reply
 ================================ */
-/* TODO: Animate QR properly so it comes out from the right, like other elements */
 #qr {
     color: #fff !important;
     background: #5c6066 !important;
@@ -987,13 +986,41 @@ input[title="Dump list"] {
     border-top-left-radius: 2px !important;
 }
   
+/* Dump menu */  
 #qr #replies {
     background: #fff !important;
     border-bottom: 1px solid #e6e8eb !important;
 }
-  
-#selected .remove {
-    text-shadow: none !important;
+
+#qr .thumbnail {
+    text-shadow: 0px 0px 2px rgba(0,0,0,1.0) !important;
+    background-color: #fff !important;
+}
+
+#qr .thumbnail:before {
+    background: transparent !important;
+    text-shadow: 0px 0px 1px rgba(0,0,0,1.0) !important;
+}
+
+#qr #selected {
+    border: 1px dashed #24a1a1 !important;
+}
+
+#qr #null {
+    border: 1px dashed #b8bfcc !important;
+}
+
+#qr .remove {
+    text-shadow: 0px 0px 1px rgba(0,0,0,0.5) !important;
+    color: #ff1133 !important;
+}
+
+#qr #addReply {
+    color: #b8bfcc !important;
+}
+
+#qr #addReply:hover {
+    color: #24a1a1 !important;
 }
 
 form > .textarea > .field {
@@ -1012,7 +1039,6 @@ form > .textarea > .field {
 form > div > input[type="submit"] {
     position: absolute !important;
     font-size: 12px !important;
-    float: right !important;
     width: 70px !important;
     height: 26px !important;
     margin-top: -26px !important;
@@ -1024,23 +1050,22 @@ form > div > input[type="submit"] {
     border: none !important;
     border-left: 1px solid #e6e8eb !important;
     border-top: 1px solid #e6e8eb !important;
-    /*border-bottom: 1px solid #e6e8eb !important;*/
-    border-bottom-right-radius: 2px !important;
+    border-bottom: 1px solid #e6e8eb !important;
     text-transform: lowercase !important;
 }
     
 .captchainput .field {
     -moz-appearance: none !important;
-    margin-top: 0px !important;
+    margin-top: 0 !important;
     margin-left: 1px !important;
-    margin-bottom: 0px !important;
+    margin-bottom: 0 !important;
     font-size: 12px !important;
     height: 26px !important;
     border: none !important;
     background: #fff !important;
     color: #33414d !important;
     border-top: 1px solid #e6e8eb !important;
-    border-bottom-left-radius: 2px !important;
+    border-bottom: 1px solid #e6e8eb !important;
 }
     
 /* Lighter captcha */
@@ -1063,32 +1088,14 @@ form > div > input[type="submit"] {
 }
 
 #qr form > div > input[type="file"] > * {
-    /*position: absolute !important;
-    right: 4px !important;
-    width: 70px !important;
-    margin-top: 0 !important;
-    margin-left: 0 !important;
-    padding-bottom: 5px !important;
     padding-top: 4px !important;
-        
-    -moz-appearance: none !important;
-    font-size: 12px !important;
-    background: #fff !important;
-    color: #b8bfcc !important;
-    border: none !important;
-    border-left: 1px solid #e6e8eb !important;
-    border-top: 1px solid #e6e8eb !important;
-    border-bottom-left-radius: 0px !important;
-    border-bottom-right-radius: 2px !important;
-    text-transform: lowercase !important;*/
-    
-    margin-top: 4px !important;
-    padding-bottom: 0px !important;
+    padding-bottom: 4px !important;
     margin-left: -4px !important;
+    width: auto !important;
     
     -moz-appearance: none;
     background: transparent !important;
-    color: #d2d5de !important;
+    color: #b8bfcc !important;
     font-size: 12px !important;
     font-family: "Helvetica Neue", sans-serif !important;
     border: none !important;
@@ -1096,8 +1103,16 @@ form > div > input[type="submit"] {
     text-align: left !important;
 }
 
-#qr form > div > input[type="file"] > *:hover {
-    color: #e6e8eb !important;
+#qr.reply.dialog.captcha > form > div:nth-child(6) {
+    background: #fff !important;
+    height: 24px !important;
+    border-bottom-left-radius: 2px !important;
+    border-bottom-right-radius: 2px !important;
+}
+
+#qr form > div > input[type="file"] > *:hover,
+#qr form > div > input[type="submit"]:hover {
+    color: #24a1a1 !important;
     cursor: pointer !important;
 }
 
@@ -1108,9 +1123,7 @@ form .captchainput {
 
 #qr input:hover::-moz-placeholder, 
 #qr textarea:hover::-moz-placeholder, 
-#dump.field:hover,
-form > div > input[type="submit"]:hover,
-form > div > input[type="file"] > input[type="button"]:hover {
+#dump.field:hover {
     color: #24a1a1 !important;
 }
 
