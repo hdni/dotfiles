@@ -608,6 +608,7 @@ a.hide_thread_button:hover {
     content: "links";
     position: fixed !important;
     height: 14px !important;
+    line-height: 12px !important;
     top: 10px !important;
     right: 10px !important;
     cursor: pointer !important;
@@ -725,7 +726,7 @@ a.hide_thread_button:hover {
     
     background: #d2d5de !important;
     color: #fff !important;
-    line-height: 14px !important;
+    line-height: 12px !important;
     padding: 2px !important;
     border-radius: 2px !important;
     text-align: center !important;
@@ -788,6 +789,7 @@ input[type="checkbox"]#imageExpand,
     width: 50px !important;
     
     font-size: 12px !important;
+    line-height: 12px !important;
     color: #fff !important;
     background: #d2d5de !important;
     padding: 2px !important;
@@ -848,7 +850,7 @@ input[type="checkbox"]#imageExpand,
     right: 10px !important;
     cursor: pointer !important;
     width: 50px !important;
-    line-height: 14px !important;
+    line-height: 12px !important;
     
     background: #d2d5de !important;
     color: #fff !important;
@@ -912,7 +914,8 @@ input[type="checkbox"]#imageExpand,
     position: fixed !important;
     top: 36px !important;
     right: 10px !important;
-    max-height: 18px !important;
+    height: 18px !important;
+    line-height: 12px !important;
     
     z-index: 4 !important;
 }
