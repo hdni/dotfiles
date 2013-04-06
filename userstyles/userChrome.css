@@ -3,8 +3,7 @@
 /*General style*/
 
 .urlbar-history-dropmarker,
-#star-button, 
-/*#identity-box,*/ 
+#star-button,  
 #page-proxy-favicon,
 .scrollbutton-up,
 .scrollbutton-down,
@@ -24,20 +23,22 @@
 #nav-bar {
     background: -moz-linear-gradient(#f4f4f4,#eee) !important;
     border: none !important;
+    border-bottom: 1px solid #d4d4d4 !important;
     margin-top: -4px !important;
-    margin-bottom: 0px !important;
-    margin-right: 2px !important;
-    margin-left: 2px !important;
+    padding-right: 8px !important;
+    padding-left: 8px !important;
     padding-top: 0px !important;
+    padding-bottom: 2px !important;
+    height: 39px !important;
 }
 
 #navigator-toolbox:after {
-    background-color: #cecece !important;
+    background-color: #d4d4d4 !important;
 }
 
 #addon-bar {
     background: -moz-linear-gradient(#f4f4f4, #dfdfdf) !important;
-    border-top: 1px solid #cecece !important;
+    border-top: 1px solid #d4d4d4 !important;
     height: 36px !important;
 }
 
@@ -47,8 +48,8 @@
     border-radius: 3px !important;
     background: #fff !important;
     box-shadow: inset 0px 1px 3px rgba(0,0,0,0.12) !important;
-    margin-top: 0px !important;
-    padding-top: 0px !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
     padding-left: 2px !important;
     margin-left: 4px !important;
     margin-right: 4px !important;
@@ -68,6 +69,7 @@
 #tabbrowser-tabs {
     background: -moz-linear-gradient(#eee,#dfdfdf) !important;
     border: none !important;
+    margin-top: -4px !important;
     padding-left: 8px !important;
     padding-right: 8px !important;
     padding-bottom: 2px !important;
@@ -129,6 +131,24 @@
     margin-left: -2px !important;
     margin-right: -2px !important;
     border: none !important;
+}
+
+/* Location bar buttons */
+#urlbar-reload-button,
+#urlbar-stop-button,
+#urlbar-go-button {
+    padding-top: 1px !important;
+    opacity: 0.5 !important;
+    border-radius: 2px !important;
+    border: none !important;
+}
+
+#urlbar-reload-button:hover,
+#urlbar-stop-button:hover,
+#urlbar-go-button:hover {
+    transition: all 0.3s ease 0s !important;
+    opacity: 0.75 !important;
+    background: transparent !important;
 }
 
 .tabs-newtab-button {
@@ -340,10 +360,11 @@ scrollbar thumb {
 	border-radius: 1.5px !important;
 	background-color: #92969b;
 	opacity: .55;
+	padding: 1px !important;
 }
 scrollbar:hover thumb {
 	opacity: 1;
-	transition: all 0.3s ease 0s;
+	background-color: #3878d4 !important;
 }
 scrollbar thumb:active ,
 scrollbar thumb:hover {
