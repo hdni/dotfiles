@@ -1093,8 +1093,8 @@ form > div > input[type="submit"] {
 #qr form > div > input[type="file"] > * {
     padding-top: 4px !important;
     padding-bottom: 4px !important;
-    margin-left: -4px !important;
-    width: auto !important;
+    margin-left: 4px !important;
+    width: 330px !important;
     
     -moz-appearance: none;
     background: transparent !important;
@@ -1104,6 +1104,14 @@ form > div > input[type="submit"] {
     border: none !important;
     text-transform: lowercase !important;
     text-align: left !important;
+}
+
+#qr form > div > input[type="file"] > input[type="button"] {
+    position: absolute !important;
+    right: 4px !important;
+    border-left: 1px solid #e6e8eb !important;
+    height: 24px !important;
+    width: 70px !important;
 }
 
 #qr.reply.dialog.captcha > form > div:nth-child(6) {
