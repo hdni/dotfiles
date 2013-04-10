@@ -557,7 +557,7 @@ a.hide_thread_button:hover {
     padding: 2px !important;
     border-top-right-radius: 0 !important;
     border: none !important;
-    z-index: 0 !important;
+    z-index: 2 !important;
 }
 
 #boardNavDesktop a {
@@ -576,7 +576,10 @@ a.hide_thread_button:hover {
 #boardNavDesktop a.settingsWindowLink:before {
     font-size: 14px !important;
     content: "settings";
-    margin-right: 0px !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding-left: 6px !important;
+    border-left: 1px solid #24a1a1 !important;
 }
 
 #boardNavDesktop a:before, #boardNavDesktop a:after {
@@ -1094,7 +1097,7 @@ form > div > input[type="submit"] {
     padding-top: 4px !important;
     padding-bottom: 4px !important;
     margin-left: 4px !important;
-    width: 330px !important;
+    width: 326px !important;
     
     -moz-appearance: none;
     background: transparent !important;
