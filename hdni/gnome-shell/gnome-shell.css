@@ -583,13 +583,13 @@ StButton.popup-menu-item:insensitive {
 /* Panel */
 
 #panel {
-    background-color: rgba(0,0,0,0.85);
+    background-color: rgba(0,0,0,0.65);
     /*background-gradient-start: rgba(0,0,0,0.35);
     background-gradient-end: rgba(0,0,0,0.25);
     background-gradient-direction: vertical;*/
     font-weight: normal;
     height: 20px;
-	box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.45);
 }
 
 #panelLeft, #panelCenter {
@@ -616,8 +616,8 @@ StButton.popup-menu-item:insensitive {
 }
 
 .panel-corner {
-    -panel-corner-radius: 2px;
-    -panel-corner-background-color: rgba(0,0,0,0.85);
+    -panel-corner-radius: 0px;
+    -panel-corner-background-color: rgba(0,0,0,0.65);
     -panel-corner-border-width: 0px;
     -panel-corner-border-color: transparent;
 }
