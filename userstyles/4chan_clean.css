@@ -1101,11 +1101,10 @@ form > div > input[type="submit"] {
     
     -moz-appearance: none;
     background: transparent !important;
-    color: #b8bfcc !important;
+    color: #33414d !important;
     font-size: 12px !important;
     font-family: "Helvetica Neue", sans-serif !important;
     border: none !important;
-    text-transform: lowercase !important;
     text-align: left !important;
 }
 
