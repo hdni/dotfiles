@@ -1087,7 +1087,7 @@ form > div > input[type="submit"] {
     opacity: 0.55 !important;
     margin: 0 auto !important;
 }
-  
+
 #qr form > div > input[type="file"] {
     width: 330px !important;
     margin-top: 0 !important;
@@ -1114,6 +1114,8 @@ form > div > input[type="submit"] {
     border-left: 1px solid #e6e8eb !important;
     height: 24px !important;
     width: 70px !important;
+    color: #b8bfcc !important;
+    text-transform: lowercase !important;
 }
 
 #qr.reply.dialog.captcha > form > div:nth-child(6) {
