@@ -1,3 +1,9 @@
-Different configurations files, mainly for a GNU/Linux environment.
+# Dotfiles
+Various configuration files and scripts, mainly for GNU/Linux systems. [See a preview of ncmpcpp](http://hdni.github.io/rice/assets/ncmpcpp.png).
 
-Note that the "hdni" directory contains a suite of themes for Gnome Shell, Metacity, GTK2 and GTK3. I didn't change the name of the directory to something more self-evident, because the name of the theme itself is hdni, and changing it would have caused problems when setting it.
+## Notes
+* Some of these files may need editing to be usable on your system.
+* The vim color scheme should be placed in `/usr/share/vim/vim73/colors` under any name you choose, and this name has to be set in your .vimrc. For example, mine is named `custom.vim`.
+* The Powerline color scheme should be placed in `~/.vim/bundle/vim-powerline/autoload/Powerline/Colorschemes`, with the same procedure as above.
+* The infinality settings file has to be in `/etc/profile.d`.
+* The oh-my-zsh theme has to be in `~/.oh-my-zsh/themes`, and then set in your .zshrc.

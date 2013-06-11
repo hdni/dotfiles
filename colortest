@@ -1,0 +1,34 @@
+#!/bin/bash
+
+USAGE="colortest: print series of characters to test terminal colors
+USAGE: colortest [blocks|letters] [-a|all] [-l|list] [-h|--help]
+-a, all:	Display all tests.
+-l, list:	List all available tests.
+blocks: 	Select the block test.
+letters:	Select the letters test.
+-h, --help:	Display this help."
+
+TEST1="\n\e[0;30m████\e[m\e[1;30m████\e[m \e[0;31m████\e[m\e[1;31m████\e[m \e[0;32m████\e[m\e[1;32m████\e[m \e[0;33m████\e[m\e[1;33m████ \e[0;34m████\e[m\e[1;34m████\e[m \e[0;35m████\e[m\e[1;35m████\e[m \e[0;36m████\e[m\e[1;36m████\e[m \e[0;37m████\e[m\e[1;37m████\e[m\n\e[0;30m████\e[m\e[1;30m████\e[m \e[0;31m████\e[m\e[1;31m████\e[m \e[0;32m████\e[m\e[1;32m████\e[m \e[0;33m████\e[m\e[1;33m████ \e[0;34m████\e[m\e[1;34m████\e[m \e[0;35m████\e[m\e[1;35m████\e[m \e[0;36m████\e[m\e[1;36m████\e[m \e[0;37m████\e[m\e[1;37m████\e[m\n\e[0;30m████\e[m\e[1;30m████\e[m \e[0;31m████\e[m\e[1;31m████\e[m \e[0;32m████\e[m\e[1;32m████\e[m \e[0;33m████\e[m\e[1;33m████ \e[0;34m████\e[m\e[1;34m████\e[m \e[0;35m████\e[m\e[1;35m████\e[m \e[0;36m████\e[m\e[1;36m████\e[m \e[0;37m████\e[m\e[1;37m████\e[m\n"
+
+TEST2="\n\e[0;30maaaa\e[m\e[1;30maaaa\e[m \e[0;31maaaa\e[m\e[1;31maaaa\e[m \e[0;32maaaa\e[m\e[1;32maaaa\e[m \e[0;33maaaa\e[m\e[1;33maaaa \e[0;34maaaa\e[m\e[1;34maaaa\e[m \e[0;35maaaa\e[m\e[1;35maaaa\e[m \e[0;36maaaa\e[m\e[1;36maaaa\e[m \e[0;37maaaa\e[m\e[1;37maaaa\e[m\n\e[0;30mbbbb\e[m\e[1;30mbbbb\e[m \e[0;31mbbbb\e[m\e[1;31mbbbb\e[m \e[0;32mbbbb\e[m\e[1;32mbbbb\e[m \e[0;33mbbbb\e[m\e[1;33mbbbb \e[0;34mbbbb\e[m\e[1;34mbbbb\e[m \e[0;35mbbbb\e[m\e[1;35mbbbb\e[m \e[0;36mbbbb\e[m\e[1;36mbbbb\e[m \e[0;37mbbbb\e[m\e[1;37mbbbb\e[m\n\e[0;30mcccc\e[m\e[1;30mcccc\e[m \e[0;31mcccc\e[m\e[1;31mcccc\e[m \e[0;32mcccc\e[m\e[1;32mcccc\e[m \e[0;33mcccc\e[m\e[1;33mcccc \e[0;34mcccc\e[m\e[1;34mcccc\e[m \e[0;35mcccc\e[m\e[1;35mcccc\e[m \e[0;36mcccc\e[m\e[1;36mcccc\e[m \e[0;37mcccc\e[m\e[1;37mcccc\e[m\n\e[0;30mdddd\e[m\e[1;30mdddd\e[m \e[0;31mdddd\e[m\e[1;31mdddd\e[m \e[0;32mdddd\e[m\e[1;32mdddd\e[m \e[0;33mdddd\e[m\e[1;33mdddd \e[0;34mdddd\e[m\e[1;34mdddd\e[m \e[0;35mdddd\e[m\e[1;35mdddd\e[m \e[0;36mdddd\e[m\e[1;36mdddd\e[m \e[0;37mdddd\e[m\e[1;37mdddd\e[m\n"
+
+case $1 in
+	blocks)			echo -e "$TEST1"
+				;;
+	
+	letters)			echo -e "$TEST2"
+				;;
+
+	-a|all)		echo -e "$TEST1$TEST2"
+				;;
+
+	-l|list)	echo -e "Available tests:\n\n1: blocks\n2: letters"
+				;;
+
+	-h|--help)	echo -e "$USAGE"
+				;;
+	
+	*)			echo -e "Invalid entry.\n$USAGE"
+				exit 1
+				;;
+esac
