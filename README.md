@@ -3,7 +3,7 @@ Various configuration files and scripts, mainly for GNU/Linux systems. [See a pr
 
 ## Notes
 * Some of these files may need editing to be usable on your system.
-* The vim color scheme should be placed in `/usr/share/vim/vim73/colors` under any name you choose, and this name has to be set in your .vimrc. For example, mine is named `custom.vim`.
+* The vim color scheme should be placed in `/usr/share/vim/vim74/colors` under any name you choose, and this name has to be set in your .vimrc. For example, mine is named `custom.vim`.
 * The Powerline color scheme should be placed in `~/.vim/bundle/vim-powerline/autoload/Powerline/Colorschemes`, with the same procedure as above.
 * The oh-my-zsh theme has to be in `~/.oh-my-zsh/themes`, and then set in your .zshrc.
 * The ncmpcpp config is made for ncmpcpp 0.6-pre, which you can find on the ncmpcpp git.
