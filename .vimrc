@@ -55,4 +55,9 @@ let g:Powerline_mode_V = 'V·L'
 let g:Powerline_mode_cv = 'V·B'
 let g:Powerline_mode_s = ' S '
 let g:Powerline_mode_S = 'S·L'
-let g:Powerline_mode_cs = 'S·B'
+let g:Powerline_mode_cs = 'S·L'
+call Pl#Theme#RemoveSegment('fileformat')
+call Pl#Theme#RemoveSegment('fileencoding')
+"call Pl#Theme#RemoveSegment('filesize')
+"call Pl#Theme#RemoveSegment('raw')
+"call Pl#Theme#RemoveSegment('lineinfo')

@@ -29,11 +29,13 @@ call Pl#Hi#Allocate({
 let g:Powerline#Colorschemes#custom#colorscheme = Pl#Colorscheme#Init([
 	\ Pl#Hi#Segments(['SPLIT'], {
 		\ 'n': ['black', 'white'],
+		\ 'N': ['black', 'white'],
 		\ 'i': ['blue', 'white'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['mode_indicator'], {
-		\ 'n': ['purewhite', 'cyan', ['bold']],
+		\ 'n': ['purewhite', 'green', ['bold']],
+		\ 'N': ['purewhite', 'green', ['bold']],
 		\ 'i': ['purewhite', 'blue', ['bold']],
 		\ 'v': ['purewhite', 'yellow', ['bold']],
 		\ 'r': ['purewhite', 'red', ['bold']],
@@ -41,12 +43,13 @@ let g:Powerline#Colorschemes#custom#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['branch', 'scrollpercent', 'raw', 'filesize'], {
-		\ 'n': ['boldblack', 'boldwhite'],
+		\ 'n': ['purewhite', 'black'],
+		\ 'N': ['purewhite', 'black'],
 		\ 'i': ['purewhite', 'blue'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['fileinfo', 'filename'], {
-		\ 'n': ['purewhite', 'boldcyan', ['bold']],
+		\ 'n': ['purewhite', 'boldgreen', ['bold']],
 		\ 'i': ['purewhite', 'boldblue', ['bold']],
 		\ 'r': ['purewhite', 'boldred', ['bold']],
 		\ 'v': ['purewhite', 'boldyellow', ['bold']],
@@ -74,7 +77,7 @@ let g:Powerline#Colorschemes#custom#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lineinfo'], {
-		\ 'n': ['purewhite', 'black', ['bold']],
+		\ 'n': ['purewhite', 'boldblack', ['bold']],
 		\ 'i': ['purewhite', 'boldblue', ['bold']],
 		\ }),
 	\
