@@ -8,6 +8,10 @@ Various configuration files and scripts, mainly for GNU/Linux systems. [See a pr
 * The oh-my-zsh theme has to be in `~/.oh-my-zsh/themes`, and then set in your .zshrc.
 * The ncmpcpp config is made for ncmpcpp 0.6-pre, which you can find on the ncmpcpp git.
 
+## GNOME Terminal
+* To install, download the gnome-terminal.xml file and run the following command: `gconftool-2 --load gnome-terminal.xml`. Keep in mind that this will **erase your previous settings**.
+* Includes 4 profiles, 2 with dark color schemes, and 2 with light ones (for Flèche and Phosphene). To switch between them, right-click on your terminal window and select one from the Profiles menu. 
+
 ## Infinality
 * I use the OSX2 rendering style, which has no hinting and subpixel AA. You can set it by running ```# /etc/fonts/infinality/infctl.sh setstyle osx2```
 * Additionally, for more advanced style options, change the preset used in `/etc/profile.d/infinality-settings.sh` to Ubuntu (line 712).
